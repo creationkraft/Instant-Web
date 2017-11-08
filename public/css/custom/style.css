@@ -1,0 +1,7054 @@
+@font-face {
+    font-family: proxima_novaextrabold;
+    src: url(../fonts/ProximaNova-Extrabold-webfont.eot);
+    src: url(../fonts/ProximaNova-Extrabold-webfontd41d.eot?#iefix) format('embedded-opentype'), url(../fonts/ProximaNova-Extrabold-webfont.woff) format('woff'), url(../fonts/ProximaNova-Extrabold-webfont.ttf) format('truetype'), url(../fonts/ProximaNova-Extrabold-webfont.svg#proxima_novaextrabold) format('svg')
+}
+
+@font-face {
+    font-family: proxima_nova_rgregular;
+    src: url(../fonts/ProximaNova-Regular-webfont.eot);
+    src: url(../fonts/ProximaNova-Regular-webfontd41d.eot?#iefix) format('embedded-opentype'), url(../fonts/ProximaNova-Regular-webfont.woff) format('woff'), url(../fonts/ProximaNova-Regular-webfont.ttf) format('truetype'), url(../fonts/ProximaNova-Regular-webfont.svg#proxima_nova_rgregular) format('svg')
+}
+
+@font-face {
+    font-family: proxima_nova_rgbold;
+    src: url(../fonts/ProximaNova-Bold-webfont.html);
+    src: url(../fonts/ProximaNova-Bold-webfontd41d.html?#iefix) format('embedded-opentype'), url(../fonts/ProximaNova-Bold-webfont.woff) format('woff'), url(../fonts/ProximaNova-Bold-webfont.ttf) format('truetype'), url(../fonts/ProximaNova-Bold-webfont.svg#proxima_nova_rgbold) format('svg')
+}
+
+@font-face {
+    font-family: proxima_nova_condensedSBd;
+    src: url(../fonts/ProximaNovaCond-Semibold-webfont.eot);
+    src: url(../fonts/ProximaNovaCond-Semibold-webfontd41d.eot?#iefix) format('embedded-opentype'), url(../fonts/ProximaNovaCond-Semibold-webfont.woff) format('woff'), url(../fonts/ProximaNovaCond-Semibold-webfont.ttf) format('truetype'), url(../fonts/ProximaNovaCond-Semibold-webfont.svg#proxima_nova_condensedSBd) format('svg')
+}
+
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block
+}
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: proxima_nova_rgregular !important;
+    height: 100%;
+    color: #333
+}
+
+ol, ul {
+    list-style: none
+}
+
+blockquote, q {
+    quotes: none
+}
+
+blockquote:after, blockquote:before, q:after, q:before {
+    content: '';
+    content: none
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0
+}
+
+a:focus, a:hover {
+    text-decoration: none;
+    outline: 0
+}
+
+a {
+    cursor: pointer
+}
+
+.h1, .h2, .h3, .h4, h1, h2, h3, h4 {
+    margin-top: 0;
+    margin-bottom: 0
+}
+
+.rb-content-table {
+    position: relative;
+    float: left;
+    width: 100%;
+    height: 100%;
+    display: table;
+    color: #fff;
+    font-size: 38px;
+    font-weight: 300;
+    text-align: center
+}
+
+.rb-content-row {
+    display: table-row
+}
+
+.rb-content-cell {
+    display: table-cell;
+    vertical-align: middle
+}
+
+h1 {
+    font-size: 35px;
+    line-height: 45px
+}
+
+h2 {
+    font-size: 30px
+}
+
+h4 {
+    font-size: 22px
+}
+
+h5 {
+    font-size: 18px
+}
+
+h6 {
+    font-size: 14px
+}
+
+.rb-prx-regular {
+    font-family: proxima_nova_rgregular
+}
+
+.rb-prx-bold {
+    font-family: proxima_nova_rgbold
+}
+
+.rb-fntsize12 {
+    font-size: 12px
+}
+
+.rb-fntsize14 {
+    font-size: 14px
+}
+
+.rb-fntsize16 {
+    font-size: 16px
+}
+
+.rb-fntsize20 {
+    font-size: 20px
+}
+
+.rb-fnt-20 {
+    font-size: 20px
+}
+
+.rb-fnt-24 {
+    font-size: 24px
+}
+
+.rb-padding0 {
+    padding: 0
+}
+
+.rb-tp-btm-60 {
+    padding: 60px 0
+}
+
+.rb-tp-btm-20 {
+    padding: 20px 0
+}
+
+.rb-tp-20 {
+    padding-top: 20px
+}
+
+.rb-btm-20 {
+    padding-bottom: 20px
+}
+
+.rb-btm-30 {
+    padding-bottom: 30px
+}
+
+.rb-btm-10 {
+    padding-bottom: 10px
+}
+
+.rb-btm-60 {
+    padding-bottom: 60px
+}
+
+.rb-pad-0 {
+    padding-left: 0 !important
+}
+
+.rb-pad-right-0 {
+    padding-right: 0 !important
+}
+
+.rb-paddtp90 {
+    padding-top: 85px
+}
+
+.rb-paddbt90 {
+    padding-bottom: 85px
+}
+
+.rb-paddtp50 {
+    padding-top: 50px
+}
+
+.rb-paddtp40 {
+    padding-top: 40px
+}
+
+.rb-paddtp25 {
+    padding-top: 25px
+}
+
+.rb-paddbt10 {
+    padding-bottom: 10px
+}
+
+.rb-heading-pad {
+    padding: 85px 0
+}
+
+.rb-pading-tp {
+    padding-top: 85px
+}
+
+.rb-heading-btm {
+    padding: 75px 0
+}
+
+.rb-padding25 {
+    padding: 30px 0 40px 0
+}
+
+.rb-center {
+    text-align: center
+}
+
+.rb-img-center {
+    margin: 0 auto !important;
+    display: block
+}
+
+.rb-border {
+    border: 1px solid #333
+}
+
+.rb-bg-grey {
+    background-color: #f4f4f4
+}
+
+.rb-bg-white {
+    background-color: #fff !important
+}
+
+.rb-bg-f9 {
+    background-color: #f9f9f9
+}
+
+.rb-bg-fb {
+    background-color: #fbfbfb !important
+}
+
+.rb-bg-373 {
+    background: #0373ba
+}
+
+.rb-bg-fc {
+    background: #fcfcfc
+}
+
+.rb-bold {
+    font-weight: 700
+}
+
+.rb-semi-bold {
+    font-weight: 500
+}
+
+.rb-regular {
+    font-weight: 300 !important
+}
+
+.rb-thin {
+    font-weight: 100 !important
+}
+
+.rb-lh-30 {
+    line-height: 30px
+}
+
+.rb-lh-40 {
+    line-height: 40px
+}
+
+.rb-lh-26 {
+    line-height: 26px
+}
+
+.rb-left {
+    float: left
+}
+
+.rb-ls {
+    letter-spacing: 2px
+}
+
+.rb-right {
+    float: right !important
+}
+
+.rb-white {
+    color: #fff
+}
+
+.rb-ly-blue {
+    color: #70afd8
+}
+
+.rb-grey {
+    color: #666 !important
+}
+
+.rb-blue {
+    color: #0373ba !important
+}
+
+.rb-yellow {
+    color: #f36f21 !important
+}
+
+.rb-clr {
+    color: #ccc
+}
+
+.rb-clr-33 {
+    color: #333
+}
+
+.rb-clr-99 {
+    color: #999
+}
+
+.rb-margn-top60 {
+    margin-top: 60px
+}
+
+.rb-margin30 {
+    margin: 30px 0
+}
+
+.rb-margin25 {
+    margin: 25px 0
+}
+
+.rb-margin10 {
+    margin: 10px 0
+}
+
+.rb-bold {
+    font-weight: 700
+}
+
+.rb-thin2p-brder {
+    border-bottom: 2px solid #81b9dd;
+    padding-bottom: 8px
+}
+
+.rb-height {
+    height: 118px
+}
+
+.rb-height60 {
+    height: 60px
+}
+
+.rb-vertical-mdle {
+    vertical-align: middle
+}
+
+.rb-block {
+    display: block
+}
+
+.rb-inline {
+    display: inline-block
+}
+
+.breadcrumb > li + li:before {
+    content: "|"
+}
+
+.rb-main-wrapper {
+    min-height: 100%;
+    position: relative
+}
+
+.rb-main-wrapper .rb-bred-crumb .breadcrumb {
+    background: 0 0;
+    padding: 13px 35px;
+    margin-bottom: 0
+}
+
+.rb-main-wrapper .rb-bred-crumb .breadcrumb li a {
+    color: #999
+}
+
+.rb-main-wrapper .rb-bred-crumb .breadcrumb li a.active {
+    color: #333
+}
+
+.pagination {
+    margin: 50px 0 60px 0
+}
+
+.pagination > li:first-child > a, .pagination > li:last-child > a {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0
+}
+
+.pagination > li.active > a {
+    background: #06c
+}
+
+.pagination > li > a {
+    padding: 4px 15px;
+    color: #999;
+    font-size: 14px
+}
+
+.rb-form-req {
+    color: #d5316d;
+    padding: 3px
+}
+
+em {
+    font-style: normal;
+    text-transform: capitalize;
+    font-family: proxima_nova_rgbold
+}
+
+.rb-error-msg .btn.rb-btn-submit-lg, .rb-rgstr-newUser form .btn.rb-btn-submit-lg, .signup-card form button.btn.rb-btn-submit-lg, button.btn.rb-btn-submit-lg.btn-popup {
+    position: relative;
+    background: url(/assets/images/rb-btn-lg.png) no-repeat;
+    background-size: contain;
+    background-position: center center;
+    width: 315px;
+    height: 55px;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 700
+}
+
+.rb-rgstr-newUser form .btn.rb-btn-submit-lg:after, .signup-card form button.btn.rb-btn-submit-lg:after, button.btn.rb-btn-submit-lg.btn-popup:after {
+    position: absolute;
+    content: "";
+    width: 19px;
+    height: 14px;
+    background: url(/assets/images/btn-arrow-white.png) no-repeat;
+    background-size: 19px 14px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    opacity: 0;
+    -webkit-transition: all .25s;
+    transition: all .25s
+}
+
+.rb-rgstr-newUser form .btn.rb-btn-submit-lg:hover:after, .signup-card form button.btn.rb-btn-submit-lg:hover:after, button.btn.rb-btn-submit-lg.btn-popup:hover:after {
+    -webkit-transform: translate(80px, -50%);
+    -ms-transform: translate(80px, -50%);
+    transform: translate(80px, -50%);
+    opacity: 1
+}
+
+.app-apply.rb-heading-btm button.btn.rb-btn-submit-md, .btn.rb-btn-submit-md.frgot-psw-submit, .edit-profile-content form .btn.rb-btn-submit-md, .rb-application button.btn.rb-btn-submit-md, .rb-apply-now form button.btn.rb-btn-submit-md, .rb-bl-bnrCard form button.btn.rb-btn-submit-md, .rb-developer-box button.btn.rb-btn-submit-md, .rb-member form .btn.rb-btn-submit-md, .rb-pl-banner form button.btn.rb-btn-submit-md, .rb-right-choice button.btn.rb-btn-submit-md, .rb-right-wrapper form.rb-form button.btn.rb-btn-submit-md, .send-query-modal-body form button.btn.rb-btn-submit-md, button.rb-btn-submit-md.btn-popup {
+    position: relative;
+    background: url(/assets/images/rb-btn-md.png) no-repeat;
+    width: 190px;
+    height: 60px;
+    background-size: 190px 60px;
+    color: #0373ba;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 40px auto;
+    margin-bottom: 90px;
+    display: block
+}
+
+.app-apply.rb-heading-btm button.btn.rb-btn-submit-md:after, .btn.rb-btn-submit-md.frgot-psw-submit:after, .edit-profile-content form .btn.rb-btn-submit-md:after, .rb-application button.btn.rb-btn-submit-md:after, .rb-apply-now form button.btn.rb-btn-submit-md:after, .rb-bl-bnrCard form button.btn.rb-btn-submit-md:after, .rb-developer-box button.btn.rb-btn-submit-md:after, .rb-member form .btn.rb-btn-submit-md:after, .rb-pl-banner form button.btn.rb-btn-submit-md:after, .rb-right-choice button.btn.rb-btn-submit-md:after, .rb-right-wrapper form.rb-form button.btn.rb-btn-submit-md:after, .send-query-modal-body form button.btn.rb-btn-submit-md:after, button.rb-btn-submit-md.btn-popup:after {
+    position: absolute;
+    content: "";
+    width: 19px;
+    height: 14px;
+    background: url(/assets/images/btn-arrow-blue.png) no-repeat;
+    background-size: 19px 14px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    opacity: 0;
+    -webkit-transition: all .25s;
+    transition: all .25s
+}
+
+.app-apply.rb-heading-btm button.btn.rb-btn-submit-md:hover:after, .btn.rb-btn-submit-md.frgot-psw-submit:hover:after, .edit-profile-content form .btn.rb-btn-submit-md:hover:after, .rb-application button.btn.rb-btn-submit-md:hover:after, .rb-apply-now form button.btn.rb-btn-submit-md:hover:after, .rb-bl-bnrCard form button.btn.rb-btn-submit-md:hover:after, .rb-developer-box button.btn.rb-btn-submit-md:hover:after, .rb-member form .btn.rb-btn-submit-md:hover:after, .rb-pl-banner form button.btn.rb-btn-submit-md:hover:after, .rb-right-choice button.btn.rb-btn-submit-md:hover:after, .rb-right-wrapper form.rb-form button.btn.rb-btn-submit-md:hover:after, .send-query-modal-body form button.btn.rb-btn-submit-md:hover:after, button.rb-btn-submit-md.btn-popup:hover:after {
+    opacity: 1;
+    -webkit-transform: translate(50px, -50%);
+    -ms-transform: translate(50px, -50%);
+    transform: translate(50px, -50%)
+}
+
+#rb-header-menu {
+    padding: 0 0;
+    -webkit-transition: all .8s;
+    transition: all .8s
+}
+
+.rb-header.navbar-default {
+    background-color: #fff !important;
+    border-color: rgba(231, 231, 231, 0);
+    margin-bottom: 0
+}
+
+#rb-header-menu a.navbar-brand {
+    text-transform: uppercase;
+    font-size: 22px;
+    color: #fff;
+    font-weight: 900
+}
+
+a.navbar-brand {
+    padding-left: 60px
+}
+
+#rb-header-menu.navbar-default .rb-left-wrapper > li > a {
+    padding: 0;
+    margin: 0
+}
+
+#rb-header-menu.navbar-default .rb-left-wrapper > li:last-child {
+    text-transform: capitalize;
+    font-size: 12px;
+    padding: 5px 0;
+    font-weight: 100
+}
+
+#rb-header-menu.navbar-default .navbar-nav > li > a, #rb-header-menu.navbar-default .rb-left-wrapper > li {
+    text-transform: uppercase;
+    color: #333;
+    font-size: 14px;
+    letter-spacing: 1px;
+    margin: 25px 12px 0 25px;
+    padding: 0
+}
+
+a#login.rb-login {
+    font-size: 12px !important;
+    color: #0373ba !important
+}
+
+a#login.rb-login:hover {
+    text-decoration: underline
+}
+
+#rb-header-menu .navbar-nav a#business.rb-business, #rb-header-menu .navbar-nav a#consumer.rb-consumer, #rb-header-menu .navbar-nav a#credit.rb-credit, #rb-header-menu .navbar-nav a#insurance.rb-insurance {
+    color: #333
+}
+
+#rb-header-menu .navbar-nav a#credit.rb-credit:hover {
+    color: #fdb813
+}
+
+#rb-header-menu .navbar-nav a#consumer.rb-consumer:hover {
+    color: #0373ba
+}
+
+#rb-header-menu .navbar-nav a#business.rb-business:hover {
+    color: #71bf44
+}
+
+#rb-header-menu .navbar-nav a#insurance.rb-insurance:hover {
+    color: #d5316d
+}
+
+#rb-header-menu .navbar-nav a#track.rb-track {
+    color: #666 !important;
+    font-size: 12px;
+    font-family: proxima_nova_rgregular
+}
+
+#rb-header-menu .navbar-nav a#track.rb-track:hover {
+    color: #0373ba !important
+}
+
+.rb-logo-h {
+    height: 43px
+}
+
+#rb-header-menu.navbar-default .navbar-nav > li > a {
+    font-family: proxima_nova_rgbold
+}
+
+.navbar-default .navbar-brand .rb-on-img, .navbar-default.on .navbar-brand .rb-img {
+    display: none
+}
+
+.navbar-default.on .navbar-brand .rb-on-img {
+    display: block;
+    margin-top: -20px
+}
+
+.navbar-default.on ul .rb-hover-on {
+    display: none !important
+}
+
+.navbar-default .navbar-nav ul .rb-hover-on, .navbar-default.on .navbar-nav ul .rb-hover-on {
+    display: none !important
+}
+
+.navbar-default.on {
+    background-color: #fff !important;
+    padding: 8px 30px 0 30px !important;
+    box-shadow: 0 1px 3px #e3e3e3
+}
+
+.navbar-default.on .cd-primary-nav {
+    padding: 45px 60px 0 0 !important;
+    margin: -2px 0 0 0 !important
+}
+
+.navbar-default.on .nav li a, .navbar-default.on .nav > li {
+    color: #333
+}
+
+.pad-nav-50 {
+    padding-left: 55px
+}
+
+.rb-header-wrapper .navbar-default .navbar-nav > .active > a, .rb-header-wrapper .navbar-default .navbar-nav > .active > a:focus, .rb-header-wrapper .navbar-default .navbar-nav > .active > a:hover {
+    color: #fcac45 !important;
+    background-color: transparent;
+    font-weight: 700
+}
+
+.navbar-toggle {
+    border-radius: 0
+}
+
+.rb-header-wrapper .navbar-default .navbar-toggle:hover > .icon-bar {
+    background-color: #fff
+}
+
+#rb-header-menu.navbar-default .navbar-nav > li > a {
+    padding-bottom: 6px
+}
+
+.rb-header-wrapper .navbar-default .navbar-right .vm-effect-items.active {
+    border-bottom: 2px solid #f05568;
+    color: #f05568 !important;
+    padding-bottom: 5px !important;
+    display: inline-block
+}
+
+#rb-header-menu.navbar-default .navbar-nav > li > .vm-effect-items:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    background: #fff;
+    visibility: hidden;
+    border-radius: 5px;
+    -webkit-transform: scaleX(0);
+    -ms-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: .25s linear;
+    transition: .25s linear;
+    line-height: 20px
+}
+
+#rb-header-menu.navbar-default .navbar-nav > li > .vm-effect-items:hover:before, #tf-menu.navbar-default .navbar-nav > li > .vm-effect-items:focus:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1)
+}
+
+.rb-hd-30 {
+    padding-top: 10px
+}
+
+#business:after, #consumer:after, #credit:after, #insurance:after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 0;
+    width: 100%;
+    background: 0 0;
+    -webkit-transition: all ease .5s;
+    transition: all ease .5s
+}
+
+#credit {
+    position: relative;
+    border-bottom: 2px solid #fdb813
+}
+
+#credit:hover:after {
+    background: #fdb813
+}
+
+#consumer {
+    position: relative;
+    border-bottom: 2px solid #0373ba
+}
+
+#consumer:hover:after {
+    background: #0373ba
+}
+
+#business {
+    position: relative;
+    border-bottom: 2px solid #71bf44
+}
+
+#business:hover:after {
+    background: #71bf44
+}
+
+#insurance {
+    position: relative;
+    border-bottom: 2px solid #d5316d
+}
+
+#insurance:hover:after {
+    background: #d5316d
+}
+
+#business:hover:after, #consumer:hover:after, #credit:hover:after, #insurance:hover:after {
+    height: 3px
+}
+
+.frm-bor-50 {
+    border-radius: 50px !important;
+    background: #f5f5f5 !important
+}
+
+form .nav-search.form-group {
+    position: relative;
+    margin-top: 15px;
+    width: 270px
+}
+
+form .nav-search.form-group button.btn.btn-search {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    color: #666;
+    background: 0 0
+}
+
+form .nav-search.form-group input[type=search] {
+    font-size: 10px
+}
+
+.navbar-nav .form-control {
+    -webkit-box-shadow: none !important;
+    border: none !important
+}
+
+.rb-form-pd {
+    margin-left: -37px;
+    padding-right: 3px
+}
+
+section#home-banner {
+    position: relative;
+    background: url(/assets/images/banner-bg.png) #f4f3f3;
+    background-repeat: no-repeat;
+    background-position: right 130px;
+    padding-top: 0;
+    background-attachment: fixed
+}
+
+.rb-banner {
+    background: url(/assets/images/home-banner.jpg) no-repeat;
+    background-size: cover;
+    height: 600px;
+    width: 100%
+}
+
+select.form-control {
+    background: url(/assets/images/down-arrow.svg) no-repeat;
+    background-size: 10px 10px;
+    background-position: right 12px center;
+    color: #999;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    background-color: #f7f7f7;
+    height: 45px
+}
+
+.signup-card-dropdown input.form-control {
+    color: #999;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    background-color: #f7f7f7;
+    height: 45px
+}
+
+.testimonial-slider .slider-text {
+    width: 300px;
+    margin: 0 auto
+}
+
+.testimonial-slider .slider-text blockquote {
+    border-left: 0
+}
+
+.testimonial-slider {
+    position: relative
+}
+
+.testimonial-slider blockquote p:first-child {
+    font-size: 20px;
+    color: #f36f21;
+    margin-bottom: 15px;
+    font-family: Domine, serif;
+    line-height: 30px
+}
+
+.testimonial-slider blockquote p:nth-child(2) {
+    font-size: 12px;
+    line-height: 20px;
+    color: #666
+}
+
+.testimonial-slider blockquote p:nth-child(2) cite {
+    font-size: 16px;
+    font-style: normal
+}
+
+.app-pad-30 {
+    padding-right: 30px
+}
+
+.signup-card form {
+    background: #fff;
+    width: 350px;
+    margin: 20px auto;
+    padding: 46px 30px 30px 30px;
+    border-radius: 4px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .2);
+    height: 475px
+}
+
+.signup-card form h4 {
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 20px
+}
+
+.signup-card form .signup-card-dropdown {
+    padding: 5px 0 40px 0
+}
+
+.signup-card form .signup-card-dropdown p {
+    margin-bottom: 15px;
+    font-size: 20px
+}
+
+.signup-card form .signup-card-dropdown .rupee-placeholder {
+    position: relative
+}
+
+.signup-card form .signup-card-dropdown .rupee-placeholder input {
+    padding-left: 45px
+}
+
+.signup-card form .signup-card-dropdown span {
+    position: absolute;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 40px;
+    height: 100%;
+    color: #000;
+    line-height: 45px;
+    text-align: center;
+    border-radius: 4px 0 0 4px
+}
+
+.signup-card form .signup-card-radio p {
+    padding: 25px 0 20px;
+    font-size: 20px
+}
+
+.signup-card form .signup-card-radio label {
+    margin-right: 20px;
+    padding-bottom: 30px
+}
+
+.signup-card form button {
+    background: #00f;
+    position: relative;
+    left: 50%;
+    -webkit-transform: translatex(-50%);
+    -ms-transform: translatex(-50%);
+    transform: translatex(-50%)
+}
+
+#features ul {
+    font-family: proxima_nova_rgbold
+}
+
+.features-info {
+    line-height: 22px;
+    font-size: 12px
+}
+
+.features-info a:hover {
+    text-decoration: underline;
+    cursor: pointer
+}
+
+#features ul h4 {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px
+}
+
+.features ul {
+    padding: 0;
+    margin: 0
+}
+
+.features ul li {
+    background: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-flow: row;
+    -ms-flex-flow: row;
+    flex-flow: row;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    float: left;
+    padding: 30px 35px;
+    border-right: 1px dotted #dadada
+}
+
+.features ul li:last-child {
+    border-right: 0
+}
+
+.features ul {
+    padding-left: 40px
+}
+
+.features ul span {
+    font-size: 12px;
+    color: #0373ba
+}
+
+.features img {
+    margin-right: 15px
+}
+
+section#features ul {
+    list-style: none;
+    padding: 0;
+    margin: 0
+}
+
+section#features ul li {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    width: 250px;
+    margin: 10px auto;
+    padding: 30px 15px
+}
+
+section#features ul li img {
+    margin-right: 15px;
+    width: 52px
+}
+
+section#features {
+    background: #fff;
+    text-transform: uppercase
+}
+
+section#products {
+    padding-bottom: 60px;
+    background: #555
+}
+
+section#products header {
+    text-align: center;
+    padding: 60px 0
+}
+
+.rb-h-products {
+    background-color: #f8f7f7;
+    overflow: hidden
+}
+
+.rb-h-products h2 {
+    text-align: center;
+    font-weight: 100
+}
+
+.products-card-heading h4 {
+    font-size: 20px
+}
+
+.products-card {
+    position: relative;
+    margin: 0 10px;
+    background: #fff;
+    padding: 20px 50px;
+    box-shadow: 0 2px 8px 0 #ccc;
+    border-radius: 5px
+}
+
+.products-card:after {
+    position: absolute;
+    content: "";
+    display: block;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    bottom: 0;
+    height: 3px;
+    width: 200px;
+    background: url(/assets/images/line.png)
+}
+
+.products-card .products-card-img img {
+    display: block;
+    margin: 0 auto
+}
+
+.products-card .products-card-list ul {
+    padding: 0;
+    list-style: none
+}
+
+.products-card .products-card-list ul li {
+    position: relative;
+    border-bottom: 1px dashed #d1d5d9;
+    padding: 13px 20px 13px 30px
+}
+
+.products-card .products-card-list ul li:before {
+    display: block;
+    width: 23px;
+    height: 21px;
+    background: url(/assets/images/tick.png);
+    content: "";
+    position: absolute;
+    top: 13px;
+    left: 0;
+    background-size: 14px 10px;
+    background-repeat: no-repeat;
+    background-position: center center
+}
+
+.rb-h-products .products-card-action {
+    padding: 30px 0 20px 0;
+    font-size: 12px;
+    font-family: proxima_nova_rgbold
+}
+
+.products-card-action:hover {
+    text-decoration: underline;
+    cursor: pointer
+}
+
+.rb-paddtp75 {
+    padding-top: 75px
+}
+
+.rb-paddbt75 {
+    padding-bottom: 75px
+}
+
+.rb-paddtp70 {
+    padding-top: 70px
+}
+
+.offers-card-info h4 {
+    font-size: 16px;
+    text-transform: uppercase
+}
+
+.offers-card-info p {
+    margin: 0 !important;
+    font-size: 16px;
+    line-height: 21px
+}
+
+.partners-bg {
+    background: url(/assets/images/partners-bg.jpg) no-repeat;
+    background-size: cover;
+    width: 100%;
+    background-attachment: fixed
+}
+
+.partners-bg .rb-white h4 {
+    font-size: 18px
+}
+
+#partners-offers .partners-bg h2 {
+    color: #fff;
+    text-align: center
+}
+
+.rb-offers-more {
+    padding-top: 50px
+}
+
+.rb-offers-more h4 {
+    color: #fff;
+    text-align: center;
+    letter-spacing: .6px;
+    font-weight: 300;
+    font-size: 14px
+}
+
+.offers-more h3:hover {
+    text-decoration: underline;
+    cursor: pointer
+}
+
+.offers-card {
+    background: #fff;
+    padding: 0 0 40px;
+    margin: 0 5px;
+    border-radius: 2%
+}
+
+.offers-card .offers-card-partner img.partner {
+    box-sizing: content-box;
+    width: 115px;
+    height: 30px;
+    margin: 0 auto;
+    padding: 30px 0
+}
+
+.offers-card .offers-card-info {
+    text-align: center
+}
+
+.offers-card .offers-card-info img.offer {
+    box-sizing: content-box;
+    width: 88px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 25px 0
+}
+
+.owl-nav {
+    margin: 0
+}
+
+.owl-nav .owl-prev {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 15px;
+    height: 30px;
+    top: 50%;
+    left: 20px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-indent: -9999px;
+    background: url(/assets/images/prev.png) !important;
+    background-color: teal;
+    background-repeat: no-repeat;
+    opacity: .5;
+    -webkit-transition: opacity .25s;
+    transition: opacity .25s
+}
+
+.owl-nav .owl-prev:hover {
+    opacity: 1
+}
+
+.owl-nav .owl-next {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 15px;
+    height: 30px;
+    top: 50%;
+    right: 20px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-indent: -9999px;
+    background: url(/assets/images/next.png) !important;
+    background-repeat: no-repeat;
+    opacity: .5;
+    -webkit-transition: opacity .25s;
+    transition: opacity .25s
+}
+
+.owl-nav .owl-next:hover {
+    opacity: 1
+}
+
+.sign-up-img {
+    overflow: hidden
+}
+
+.portfolioFilter {
+    margin: 45px 0 50px 0
+}
+
+.portfolioFilter a {
+    color: #666;
+    text-decoration: none
+}
+
+.portfolioFilter a, .portfolioFilter a.current {
+    font-weight: 700;
+    color: #fff;
+    padding: 11px;
+    margin: 0;
+    font-size: 14px
+}
+
+.rb-clr-wht {
+    color: #fff
+}
+
+.isotope-item {
+    z-index: 2
+}
+
+.isotope-hidden.isotope-item {
+    pointer-events: none;
+    z-index: 1
+}
+
+.isotope, .isotope .isotope-item {
+    -webkit-transition-duration: .8s;
+    transition-duration: .8s
+}
+
+.isotope {
+    -webkit-transition-property: height, width;
+    transition-property: height, width
+}
+
+.isotope .isotope-item {
+    -webkit-transition-property: -webkit-transform, opacity;
+    transition-property: transform, opacity
+}
+
+.portfolioFilter a.active, .portfolioFilter a:focus, .portfolioFilter a:hover {
+    color: #fff;
+    border: 1px solid #fff;
+    padding: 10px;
+    margin: 0;
+    border-radius: 3px
+}
+
+section#application-steps header {
+    text-align: center;
+    padding: 60px 0
+}
+
+.app-step .app-step-img {
+    padding: 10px 0;
+    z-index: 1
+}
+
+.app-step .app-step-img img {
+    display: block;
+    margin: 0 auto
+}
+
+.app-step .app-step-info {
+    text-align: center
+}
+
+.app-step .app-step-info h4, .app-step .app-step-info p {
+    padding: 10px;
+    font-family: proxima_nova_rgregular
+}
+
+.app-apply {
+    text-align: center
+}
+
+.sign-up-info p {
+    color: #e0e0e0;
+    line-height: 25px;
+    font-size: 18px;
+    padding-top: 35px
+}
+
+.sign-up-info .pad-r-80 {
+    padding: 30px 80px 0 0
+}
+
+.cta-sign-up-01 .sign-up-info h2 {
+    color: #fff;
+    line-height: 30px;
+    letter-spacing: 2px
+}
+
+.cta-sign-up-01 .sign-up-info h2 p {
+    font-size: 16px;
+    padding-right: 80px;
+    font-weight: 500
+}
+
+.butn-send {
+    background-color: #b5d3e6
+}
+
+.app-step-info p, .rb-bl-bnrCard p {
+    line-height: 22px;
+    font-size: 16px;
+    color: #666
+}
+
+.rb-bl-bnrCard form button.btn.rb-btn-submit-md {
+    margin: 0
+}
+
+.app-step {
+    position: relative
+}
+
+.app-step .dash {
+    position: absolute;
+    right: -125px;
+    top: 40px;
+    -webkit-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    transform: translateX(50%);
+    height: 1px;
+    width: 180px;
+    border-top: 2px dashed #e0e0e0;
+    display: block;
+    z-index: -1
+}
+
+.app-step .dash:after {
+    position: absolute;
+    content: "";
+    right: -15px;
+    top: -11px;
+    height: 20px;
+    width: 20px;
+    background: url(/assets/images/dash-right.png) no-repeat;
+    background-size: 15px 15px;
+    background-position: center;
+    display: block;
+    overflow: hidden
+}
+
+.rb-v-details {
+    font-size: 12px;
+    color: #0373ba
+}
+
+.rb-v-details:hover {
+    border-bottom: 1px solid #0373ba
+}
+
+.cta-sign-up-01 {
+    background: url(/assets/images/home-text.png) #0373ba no-repeat;
+    height: 475px;
+    width: 100%;
+    background-attachment: fixed;
+    background-position: left bottom
+}
+
+.cta-sign-up-01 .sign-up-img {
+    position: relative;
+    top: 80px;
+    text-align: right
+}
+
+.cta-sign-up-01 .sign-up-info {
+    padding: 90px 40px 28px 40px
+}
+
+.cta-sign-up-01 .sign-up-email {
+    padding: 0 40px
+}
+
+.cta-sign-up-01 .sign-up-email form .form-group {
+    position: relative;
+    width: 100%
+}
+
+.cta-sign-up-01 .sign-up-email form .form-group input {
+    width: 100%;
+    height: 55px;
+    font-size: 16px
+}
+
+.cta-sign-up-01 .sign-up-email form .form-group button.btn.btn-send {
+    color: #fff;
+    position: absolute;
+    top: 3px;
+    right: 3px;
+    padding: 15px 24px 10px 23px;
+    font-size: 16px;
+    text-transform: uppercase
+}
+
+.cta-sign-up-02 {
+    padding: 35px 0 70px 0
+}
+
+.sign-up-email .form-group .form-control {
+    background-color: #f7f7f7 !important
+}
+
+#cta-sign-up .sign-up-email h5 {
+    color: #fff;
+    padding-bottom: 15px
+}
+
+#rb-subscribe .input-group-btn {
+    display: inherit
+}
+
+#rb-subscribe input[type=text]:focus + .input-group-btn .enabled {
+    background-color: #0371b6 !important;
+    font-size: 14px;
+    border: none
+}
+
+#rb-subscribe .input-group-btn {
+    z-index: 1000
+}
+
+#rb-subscribe .input-group .form-control:first-child, #rb-subscribe .input-group-addon:first-child, #rb-subscribe .input-group-btn:first-child > .btn, #rb-subscribe .input-group-btn:first-child > .btn-group > .btn, #rb-subscribe .input-group-btn:first-child > .dropdown-toggle, #rb-subscribe .input-group-btn:last-child > .btn-group:not(:last-child) > .btn, #rb-subscribe .input-group-btn:last-child > .btn:not(:last-child) :not(.dropdown-toggle) {
+    border-radius: 4px !important;
+    border: none
+}
+
+#rb-subscribe .btn-default {
+    color: #fff !important;
+    background-color: #b1cfe1;
+    border: none;
+    padding-top: 9px
+}
+
+#rb-subscribe .ns-ftr-pad70 {
+    padding: 0 169px 0 10px;
+    height: 43px
+}
+
+#rb-subscribe .input-group {
+    position: relative;
+    display: inherit;
+    border-collapse: separate
+}
+
+#rb-subscribe .ns-subcribe-align {
+    left: 111px;
+    top: -34px
+}
+
+#rb-subscribe {
+    text-align: center;
+    float: none
+}
+
+#rb-subscribe .input-group .btn-default span {
+    color: #fff !important
+}
+
+.rb-h-faq {
+    float: right;
+    text-align: right
+}
+
+.rb-quest .flx {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.rb-h-calci {
+    float: left;
+    text-align: left
+}
+
+.faq-calc-faq {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 20px
+}
+
+.rb-border-quest {
+    border-right: 1px dashed #d1d5d9
+}
+
+.rb-border-btm {
+    border-bottom: 1px dashed #d1d5d9
+}
+
+.rb-mrgn-r-20 {
+    margin-right: 30px
+}
+
+.rb-mrgn-l-20 {
+    margin-left: 30px
+}
+
+#faq-calc {
+    background-color: #f4f4f4;
+    padding: 25px 0
+}
+
+section#faq-calc h4 {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-family: proxima_nova_rgbold
+}
+
+section#faq-calc p {
+    line-height: 21px;
+    font-size: 14px;
+    letter-spacing: 1px;
+    font-family: proxima_nova_rgregular
+}
+
+.faq-calc-faq {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 20px
+}
+
+.faq-calc-faq .faq-img {
+    margin: 0 auto
+}
+
+.faq-calc-faq .faq-info {
+    margin: 0 auto;
+    text-align: center
+}
+
+.faq-calc-calc {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-bottom: 20px
+}
+
+.faq-calc-calc .calc-img {
+    margin: 0 auto;
+    margin-bottom: 20px
+}
+
+.faq-calc-calc .calc-info {
+    margin: 0 auto;
+    text-align: center
+}
+
+footer {
+    background: #fff
+}
+
+footer h4 {
+    margin-bottom: 18px
+}
+
+footer .footer-links {
+    padding: 45px 0 11px 0;
+    letter-spacing: 1px
+}
+
+footer .footer-links ul {
+    list-style: none;
+    padding: 0
+}
+
+footer .footer-links ul li {
+    margin-bottom: 10px
+}
+
+footer .footer-links ul li a {
+    font-size: 14px;
+    font-weight: 300;
+    color: #333
+}
+
+footer .footer-links ul li a:hover {
+    color: #0373ba
+}
+
+footer .footer-links .links-01, footer .footer-links .links-02, footer .footer-links .links-03, footer .footer-links .links-04, footer .footer-links .links-05, footer .footer-links .links-06 {
+    margin-bottom: 40px
+}
+
+footer .footer-links .links-05 h4 {
+    margin-bottom: 15px;
+    font-family: proxima_nova_rgbold
+}
+
+footer .footer-links .links-05 ul li {
+    margin-right: 10px;
+    font-size: 16px;
+    font-family: proxima_nova_rgregular
+}
+
+footer .footer-links .links-05 ul li a {
+    color: #999;
+    -webkit-transition: all .25s;
+    transition: all .25s;
+    cursor: pointer
+}
+
+footer .footer-links .links-05 ul li a.fb:hover {
+    color: #3b5998
+}
+
+footer .footer-links .links-05 ul li a.tw:hover {
+    color: #9ad4ff
+}
+
+footer .footer-links .links-05 ul li a.gp:hover {
+    color: #db4437
+}
+
+footer .footer-links .links-05 ul li a.in:hover {
+    color: #000
+}
+
+footer .footer-links .links-05 .contact h4 {
+    font-size: 14px;
+    font-weight: 500;
+    margin-bottom: 5px;
+    color: #a8a8a8;
+    letter-spacing: 1px;
+    padding-top: 8px;
+    font-family: proxima_nova_rgregular
+}
+
+footer .footer-links .links-05 .contact .phone {
+    margin-bottom: 30px
+}
+
+footer .footer-links .links-05 .contact .phone a {
+    font-size: 20px;
+    text-decoration: none;
+    color: #000
+}
+
+footer .footer-links .links-05 .contact .mail a {
+    font-size: 20px;
+    text-transform: none
+}
+
+footer .footer-links button.btn {
+    background: #0373ba;
+    color: #fff
+}
+
+footer .footer-links button.btn:hover {
+    background: #fff;
+    color: #0373ba;
+    border: 1px solid #0373ba
+}
+
+footer .footer-links .links-05 ul li {
+    display: inline-block
+}
+
+footer .footer-links .links-05 ul li:first-child {
+    margin-left: 0
+}
+
+footer .footer-links h4 {
+    font-size: 16px;
+    font-family: proxima_nova_rgbold
+}
+
+footer .copyright {
+    padding: 30px 0;
+    position: relative;
+    border-top: 1px solid #e6e9eb
+}
+
+footer .copyright:before {
+    position: absolute;
+    top: -4px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    content: "";
+    height: 3px;
+    width: 200px;
+    background: url(/assets/images/line.png)
+}
+
+footer .copyright small {
+    font-size: 12px;
+    color: #999;
+    font-weight: 300
+}
+
+footer {
+    padding-left: 20px
+}
+
+.rb-cpy-right, .rb-cpy-ssl {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+#btnu-shape .button:hover {
+    color: #fff
+}
+
+#btnu-shape .button.border:after {
+    top: 29px
+}
+
+#btnu-shape .button {
+    position: relative;
+    z-index: 1;
+    display: block;
+    background: 0 0;
+    width: 280px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase
+}
+
+#btnu-shape .button:after, #btnu-shape .button:before {
+    width: 280px;
+    left: 0;
+    height: 30px;
+    z-index: -1
+}
+
+.violet {
+    color: #fff
+}
+
+.violet:after, .violet:before {
+    border: 3px solid #0373ba;
+    border-radius: 6px
+}
+
+#btnu-shape .button:before {
+    position: absolute;
+    content: '';
+    border-bottom: none;
+    -webkit-transform: perspective(9px) rotateX(3deg);
+    transform: perspective(9px) rotateX(3deg);
+    -webkit-transition: all .25s linear;
+    transition: all .25s linear
+}
+
+#btnu-shape .button:after {
+    position: absolute;
+    top: 29px;
+    content: '';
+    border-top: none;
+    -webkit-transform: perspective(15px) rotateX(-5deg);
+    transform: perspective(15px) rotateX(-5deg);
+    -webkit-transition: all .25s linear;
+    transition: all .25s linear
+}
+
+#btnu-shape .button {
+    margin: 25px 0
+}
+
+.violet:after, .violet:before, .violet:hover:after, .violet:hover:before {
+    background-color: #0373ba
+}
+
+#btnu-shape {
+    position: relative;
+    margin: 0 auto;
+    width: 280px
+}
+
+.rb-norton {
+    height: 50px !important
+}
+
+.rb-footer-wrapper ul .rb-social-icons a, .rb-wrapper-media .rb-media-rgt a {
+    border: 2px solid #aab2bd;
+    border-radius: 20px;
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+    height: 34px;
+    padding: 8px 6px 4px 8px;
+    text-align: center;
+    width: 34px;
+    -webkit-transition: all ease-in .4s;
+    -moz-transition: all ease-in .4s;
+    -o-transition: all ease-in .4s;
+    -ms-transition: all ease-in .4s
+}
+
+.rb-footer-wrapper ul .rb-social-icons a:hover {
+    box-shadow: inset 0 0 0 50px #d34836;
+    -webkit-box-shadow: inset 0 0 0 50px #d34836;
+    -moz-box-shadow: inset 0 0 0 50px #d34836;
+    border: 2px solid transparent
+}
+
+.rb-footer-wrapper ul .rb-social-icons .rb-facebook:hover {
+    box-shadow: inset 0 0 0 50px #3b5998;
+    -webkit-box-shadow: inset 0 0 0 50px #3b5998;
+    -moz-box-shadow: inset 0 0 0 50px #3b5998
+}
+
+.rb-footer-wrapper ul .rb-social-icons .rb-twitter:hover {
+    box-shadow: inset 0 0 0 50px #55acee;
+    -webkit-box-shadow: inset 0 0 0 50px #55acee;
+    -moz-box-shadow: inset 0 0 0 50px #55acee
+}
+
+.rb-footer-wrapper ul .rb-social-icons .rb-linkedin:hover {
+    box-shadow: inset 0 0 0 50px #55acee;
+    -webkit-box-shadow: inset 0 0 0 50px #55acee;
+    -moz-box-shadow: inset 0 0 0 50px #55acee
+}
+
+.rb-footer-wrapper ul .rb-social-icons:hover a .fa {
+    color: #fff !important
+}
+
+.media-left, .media-right, .rb-footer-wrapper .media-body {
+    display: table-cell;
+    vertical-align: middle
+}
+
+footer .copyright p {
+    font-size: 12px;
+    color: #999;
+    font-weight: 300;
+    text-align: center;
+    line-height: 20px
+}
+
+.app-step {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px
+}
+
+.app-step .app-step-img {
+    padding: 10px 0;
+    position: relative
+}
+
+.app-step .app-step-img img {
+    display: block;
+    margin: 0 auto
+}
+
+.app-step .app-step-info {
+    text-align: center;
+    margin-top: 45px
+}
+
+.app-step .app-step-info h4, .app-step .app-step-info p {
+    padding: 10px
+}
+
+.app-apply {
+    padding: 8px 20px 46px 20px;
+    text-align: center
+}
+
+.app-step-img .hexagon-steps-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 2
+}
+
+.app-step-img .hexagon-steps-info p {
+    text-align: center;
+    font-weight: 700;
+    color: #f07932
+}
+
+.app-step-img .hexagon-steps-info p:first-child {
+    font-size: 38px
+}
+
+.app-step-img .hexagon-steps-info p:last-child {
+    font-size: 18px
+}
+
+.hexagon-steps {
+    position: relative;
+    width: 120px;
+    height: 69.28px;
+    background-color: #fff;
+    margin: 34.64px 0;
+    margin: 0 auto;
+    border-left: solid 5px #f5f5f5;
+    border-right: solid 5px #f5f5f5;
+    border-radius: 4px
+}
+
+.hexagon-steps:after, .hexagon-steps:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 84.85px;
+    height: 84.85px;
+    -webkit-transform: scaleY(.5774) rotate(-45deg);
+    -ms-transform: scaleY(.5774) rotate(-45deg);
+    transform: scaleY(.5774) rotate(-45deg);
+    background-color: inherit;
+    left: 12.5736px;
+    border-radius: 6px
+}
+
+.hexagon-steps:before {
+    top: -42.4264px;
+    border-top: solid 7.0711px #f5f5f5;
+    border-right: solid 7.0711px #f5f5f5
+}
+
+.hexagon-steps:after {
+    bottom: -42.4264px;
+    border-bottom: solid 7.0711px #f5f5f5;
+    border-left: solid 7.0711px #f5f5f5
+}
+
+.offers-card, .rb-bl-offers .offers-card {
+    position: relative;
+    background: #fff;
+    width: 260px;
+    padding: 5px 20px 30px;
+    margin: 0 auto;
+    border-radius: 4px
+}
+
+.offers-card .offers-card-partner img.partner, .rb-bl-offers .offers-card .offers-card-partner img.partner {
+    box-sizing: content-box;
+    width: 120px;
+    height: 30px;
+    margin: 0 auto;
+    padding: 25px 0
+}
+
+.offers-card .offers-card-info, .rb-bl-offers .offers-card .offers-card-info {
+    text-align: center
+}
+
+.offers-card .offers-card-info img.offer, .rb-bl-offers .offers-card .offers-card-info img.offer {
+    box-sizing: content-box;
+    width: 88px;
+    height: 100px;
+    margin: 0 auto;
+    padding: 25px 0
+}
+
+.rb-bl-offers .offers-card {
+    box-shadow: 0 2px 8px 0 #ccc
+}
+
+.rb-bl-partners .offers-card {
+    background: #fafafa;
+    box-shadow: 0 2px 8px 0 #ccc
+}
+
+.owl-nav {
+    margin: 0
+}
+
+.owl-nav .owl-prev {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 15px;
+    height: 30px;
+    top: 50%;
+    left: 20px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-indent: -9999px;
+    background: url(/assets/images/prev.png) !important;
+    background-color: teal;
+    background-repeat: no-repeat;
+    opacity: .5;
+    -webkit-transition: opacity .25s;
+    transition: opacity .25s
+}
+
+.owl-nav .owl-prev:hover {
+    opacity: 1
+}
+
+.owl-nav .owl-next {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    width: 15px;
+    height: 30px;
+    top: 50%;
+    right: 20px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    text-indent: -9999px;
+    background: url(/assets/images/next.png) !important;
+    background-repeat: no-repeat;
+    opacity: .5;
+    -webkit-transition: opacity .25s;
+    transition: opacity .25s
+}
+
+.owl-nav .owl-next:hover {
+    opacity: 1
+}
+
+.hexagon-offers-img, .rb-bl-offers .hexagon-offers-img {
+    position: relative;
+    width: 100px;
+    height: 57.74px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-left: solid 3px #e5e5e5;
+    border-right: solid 3px #e5e5e5;
+    border-radius: 3px
+}
+
+.hexagon-offers-img:after, .hexagon-offers-img:before, .rb-bl-offers .hexagon-offers-img:after, .rb-bl-offers .hexagon-offers-img:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 70.71px;
+    height: 70.71px;
+    -webkit-transform: scaleY(.5774) rotate(-45deg);
+    -ms-transform: scaleY(.5774) rotate(-45deg);
+    transform: scaleY(.5774) rotate(-45deg);
+    background-color: inherit;
+    left: 11.6447px;
+    border-radius: 3px 6px
+}
+
+.hexagon-offers-img:before, .rb-bl-offers .hexagon-offers-img:before {
+    top: -35.3553px;
+    border-top: solid 4.2426px #e5e5e5;
+    border-right: solid 4.2426px #e5e5e5
+}
+
+.hexagon-offers-img:after, .rb-bl-offers .hexagon-offers-img:after {
+    bottom: -35.3553px;
+    border-bottom: solid 4.2426px #e5e5e5;
+    border-left: solid 4.2426px #e5e5e5
+}
+
+.hexagon-offers, .rb-bl-offers .hexagon-offers {
+    position: relative;
+    margin-top: 45px;
+    margin-bottom: 50px
+}
+
+.hexagon-offers-text, .rb-bl-offers .hexagon-offers-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 2
+}
+
+.hexagon-offers-text p {
+    font-size: 30px;
+    color: #f07932
+}
+
+.hexagon-offers-text p sup {
+    font-size: 18px
+}
+
+.button-hexagon {
+    display: block;
+    position: relative;
+    text-align: center;
+    z-index: 1
+}
+
+.button-hexagon a {
+    color: #0abcaa;
+    text-decoration: underline
+}
+
+.button-hexagon a {
+    background: 0 0
+}
+
+.button-hexagon span.background-light-grey {
+    background: #f7f7f7 !important
+}
+
+.button-hexagon span:after, .button-hexagon span:before {
+    position: absolute;
+    top: 32.5px;
+    width: 10px;
+    height: 10px;
+    background: #d8d8d8;
+    border-radius: 5px;
+    content: '';
+    margin-left: -5px
+}
+
+.button-hexagon span:after, .button-hexagon span:before {
+    position: absolute;
+    top: 32.5px;
+    width: 10px;
+    height: 10px;
+    background: #d8d8d8;
+    border-radius: 5px;
+    content: '';
+    margin-left: -5px
+}
+
+.button-hexagon span {
+    position: absolute;
+    left: 50%;
+    width: 300px;
+    height: 75px;
+    display: block;
+    margin-left: -150px;
+    z-index: 2
+}
+
+.button-hexagon .button-hexagon-body {
+    color: #fff;
+    font: 100 30px/51px Roboto;
+    width: 230px;
+    height: 75px;
+    background: url(img/hexagon-button.png) no-repeat;
+    display: inline-block;
+    line-height: 75px;
+    position: relative;
+    z-index: 3
+}
+
+.alert-rubique {
+    background-color: #d5316d;
+    border-color: rgba(149, 149, 149, .3);
+    border-radius: 3px;
+    color: #959595;
+    padding: 0;
+    width: 326px;
+    height: 83px;
+    background-image: url(/assets/images/hotoffers.png)
+}
+
+.alert-rubique button {
+    position: relative;
+    top: 5px;
+    right: 10px
+}
+
+.alert-rubique > [data-notify=icon] {
+    height: 50px;
+    margin-right: 12px;
+    margin: 0
+}
+
+.alert-rubique > [data-notify=title] {
+    color: #333;
+    display: block;
+    font-weight: 700;
+    margin-bottom: 5px
+}
+
+.alert-rubique > [data-notify=message] {
+    font-size: 80%
+}
+
+.rb-faq-pnl {
+    padding: 30px 0 80px 0;
+    color: #333
+}
+
+.cd-faq-categories li a {
+    font-size: 16px;
+    text-transform: uppercase
+}
+
+.cd-faq .cd-faq-categories {
+    padding-top: 60px;
+    line-height: 38px
+}
+
+.cd-faq-items ul {
+    padding-top: 65px
+}
+
+.faq-cd-text li a {
+    font-size: 16px;
+    line-height: 33px;
+    color: #333
+}
+
+.faq-cd-text li a:hover {
+    color: #0373ba
+}
+
+.rb-faq-mrgn45 {
+    margin-top: -45px;
+    padding-bottom: 20px
+}
+
+.rb-main-wrapper .cd-faq-items span {
+    padding-top: 40px;
+    font-size: 18px;
+    color: #0373ba
+}
+
+.rb-main-wrapper .cd-faq-items p {
+    padding: 14px 0 20px 16px;
+    font-size: 14px;
+    line-height: 22px;
+    border-bottom: 1px dashed #ccc
+}
+
+.rb-main-wrapper .cd-faq-items article {
+    padding-top: 20px
+}
+
+.rb-fl-home {
+    color: #fff;
+    text-align: center;
+    position: relative;
+    background: url(/assets/images/fl-texture.png) #f4f3f3;
+    background-repeat: no-repeat;
+    background-position: right 0;
+    height: 230px;
+    background-color: #f07831
+}
+
+.rb-fl-home h2:first-child {
+    line-height: 38px;
+    padding-top: 30px
+}
+
+.rb-fl-hexagon {
+    text-align: center;
+    line-height: 22px;
+    background-color: #fafafa
+}
+
+.rb-fl-hexagon .app-fl {
+    width: 300px;
+    margin: 0 auto;
+    margin-bottom: 20px
+}
+
+.rb-fl-hexagon .app-fl .app-fl-img {
+    padding: 10px 0;
+    position: relative
+}
+
+.rb-fl-hexagon .app-fl .app-fl-img img {
+    display: block;
+    margin: 0 auto
+}
+
+.rb-fl-hexagon .app-fl .app-fl-info {
+    text-align: center;
+    margin-top: 30px
+}
+
+.rb-fl-hexagon .app-fl .app-fl-info h4, .rb-fl-hexagon .app-fl .app-fl-info p {
+    padding: 10px
+}
+
+.rb-fl-hexagon .app-apply {
+    padding: 60px 20px;
+    text-align: center
+}
+
+.rb-fl-hexagon .app-fl-img .hexagon-fl-info {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 55
+}
+
+.rb-fl-hexagon .app-fl-img .hexagon-fl-info p {
+    text-align: center;
+    font-weight: 700;
+    color: #f07932
+}
+
+.rb-fl-hexagon .app-fl-img .hexagon-fl-info p:first-child {
+    font-size: 38px
+}
+
+.rb-fl-hexagon .app-fl-img .hexagon-fl-info p:last-child {
+    font-size: 15px
+}
+
+.rb-fl-hexagon .hexagon-fl {
+    position: relative;
+    width: 120px;
+    height: 69.28px;
+    background-color: #fff;
+    margin: 34.64px 0;
+    margin: 0 auto;
+    border-left: solid 5px #f5f5f5;
+    border-right: solid 5px #f5f5f5;
+    border-radius: 4px;
+    z-index: 50
+}
+
+.hexagon-fl:after, .rb-fl-hexagon .hexagon-fl:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 84.85px;
+    height: 84.85px;
+    -webkit-transform: scaleY(.5774) rotate(-45deg);
+    -ms-transform: scaleY(.5774) rotate(-45deg);
+    transform: scaleY(.5774) rotate(-45deg);
+    background-color: inherit;
+    left: 12.5736px;
+    border-radius: 6px
+}
+
+.rb-fl-hexagon .hexagon-fl:before {
+    top: -42.4264px;
+    border-top: solid 7.0711px #f5f5f5;
+    border-right: solid 7.0711px #f5f5f5
+}
+
+.rb-fl-hexagon .hexagon-fl:after {
+    bottom: -42.4264px;
+    border-bottom: solid 7.0711px #f5f5f5;
+    border-left: solid 7.0711px #f5f5f5
+}
+
+.rb-fl-hexagon .app-fl {
+    position: relative
+}
+
+.rb-fl-hexagon .app-fl .dash {
+    position: absolute;
+    right: -61px;
+    top: 40px;
+    -webkit-transform: translateX(50%);
+    -ms-transform: translateX(50%);
+    transform: translateX(50%);
+    height: 1px;
+    width: 134px;
+    border-top: 2px dashed #f9a371;
+    display: block;
+    z-index: 5
+}
+
+.rb-fl-hexagon .app-fl .dash:after {
+    position: absolute;
+    content: "";
+    right: -15px;
+    top: -11px;
+    height: 20px;
+    width: 20px;
+    background: url(/assets/images/dash-yellow.png) no-repeat;
+    background-size: 15px 15px;
+    background-position: center;
+    display: block;
+    overflow: hidden
+}
+
+.rb-fl-hexagon .app-fl-mrgn50px {
+    margin-top: -62px;
+    padding-bottom: 60px
+}
+
+#rb-fl-banks #creditCard table th {
+    border: none;
+    padding-left: 0
+}
+
+#rb-fl-banks .rb-bl-tabsContent {
+    padding-bottom: 100px
+}
+
+#rb-fl-banks .media-left, #rb-fl-banks .rb-bl-tabsContent .media-body, .media-right {
+    vertical-align: middle !important;
+    padding-right: 40px
+}
+
+#rb-fl-banks .rb-bl-aproval a {
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 5px;
+    color: #0373ba
+}
+
+#rb-fl-banks .rb-bl-aproval div {
+    font-size: 12px;
+    padding-top: 15px;
+    text-transform: uppercase
+}
+
+#rb-fl-banks .rb-bl-tabsContent table tr td {
+    padding: 10px 0;
+    vertical-align: middle
+}
+
+#rb-fl-banks .rb-bl-tabsContent table tr td:nth-child(2), #rb-fl-banks .rb-bl-tabsContent table tr td:nth-child(3) {
+    text-align: center
+}
+
+#rb-fl-banks .rb-bl-tabsContent table tr p {
+    padding-top: 16px;
+    color: #999
+}
+
+.rb-fl-advan {
+    padding: 45px 0 45px 0
+}
+
+#creditCard .table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th {
+    border-top: 1px solid #ececec
+}
+
+.rb-h-query p:hover {
+    text-decoration: underline;
+    color: #0373ba !important
+}
+
+#rb-fl-banks .rb-bl-aproval a:hover {
+    color: #fff;
+    -webkit-transition: all ease-in .4s;
+    -moz-transition: all ease-in .4s;
+    -o-transition: all ease-in .4s;
+    -ms-transition: all ease-in .4s
+}
+
+.rb-paddleft {
+    padding-left: 0
+}
+
+.rb-bg-color1 {
+    background-color: #fff
+}
+
+.rb-bg-color {
+    background-color: #fafafa
+}
+
+.rb-color {
+    color: #000 !important
+}
+
+.rb-marbt25 {
+    margin-bottom: 20px;
+    height: 15%
+}
+
+.rb-paddbt30 {
+    padding-bottom: 30px
+}
+
+.rb-font24 {
+    font-size: 24px
+}
+
+.rb-bl-banner {
+    height: 150px;
+    background-color: #b6083d
+}
+
+.rb-martp120 {
+    margin-top: 120px
+}
+
+.rb-bl-texture {
+    background: url(/assets/images/land-texture.png) no-repeat;
+    height: 150px;
+    background-position: right
+}
+
+.rb-bl-bnrCard .signup-card {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+    margin-top: -125px
+}
+
+.rb-bl-bnrCard .signup-card form .signup-card-dropdown {
+    border: none
+}
+
+.rb-bl-bnrCard .signup-card form {
+    padding: 30px
+}
+
+.rb-bl-bnrCard select.form-control {
+    background-size: 12px 12px;
+    font-size: 16px
+}
+
+.rb-bl-bnrCard .rb-bl-para {
+    padding: 60px 205px 60px 70px
+}
+
+.ns-faq-main-tabs .nav-tabs, .rb-lb-newTabs .ns-faq-tabs .nav-tabs {
+    border-bottom: none
+}
+
+.rb-lb-newTabs .ns-faq-main-tabs .nav-tabs > li.active {
+    border-bottom: 3px solid #1faad8
+}
+
+.rb-lb-newTabs .ns-faq-main-tabs .nav-tabs > li {
+    margin: 0 40px 0 0
+}
+
+.rb-lb-newTabs .ns-faq-tabs .nav-tabs > li {
+    float: none
+}
+
+.rb-lb-newTabs .ns-faq-main-tabs .nav-tabs > li {
+    float: left
+}
+
+.rb-lb-newTabs .ns-faq-main-tabs .nav > li > a {
+    padding: 15px 0
+}
+
+.ns-faq-tabs .nav-tabs > li:first-child > a:hover, .rb-lb-newTabs .ns-faq-tabs .nav-tabs > li:first-child > a {
+    border-top: none;
+    border-left: none
+}
+
+.rb-lb-newTabs .ns-faq-tabs .nav-tabs > li > a {
+    border-radius: 1px;
+    border: 1px solid #f5f5f5;
+    font-size: 14px;
+    color: #999;
+    padding: 10px 20px;
+    border-right: 0;
+    border-left: 0;
+    margin-right: 0
+}
+
+.rb-lb-newTabs .ns-faq-main-tabs .nav-tabs > li > a {
+    border-radius: 1px;
+    font-size: 14px;
+    color: #999;
+    border: 0;
+    margin-right: 0;
+    text-transform: uppercase
+}
+
+.ns-faq-main-tabs .nav-tabs > li > a:hover, .rb-lb-newTabs .ns-faq-tabs .nav-tabs > li > a:hover {
+    background: 0 0;
+    color: #1faad8
+}
+
+.ns-faq-tabs .nav-tabs > li.active > a:focus, .ns-faq-tabs .nav-tabs > li.active > a:hover, .rb-lb-newTabs .ns-faq-tabs .nav-tabs > li.active > a {
+    color: #1faad8;
+    background: #fff;
+    border-bottom: 1px solid #f5f5f5;
+    border-right: 0;
+    border-color: #f5f5f5;
+    border-left: 0
+}
+
+.ns-faq-main-tabs .nav-tabs > li.active > a:focus, .ns-faq-main-tabs .nav-tabs > li.active > a:hover, .rb-lb-newTabs .ns-faq-main-tabs .nav-tabs > li.active > a {
+    color: #1faad8;
+    background: 0 0;
+    border-bottom: 1px solid #f5f5f5;
+    border-right: 0;
+    border-left: 0;
+    border-top: 0
+}
+
+#creditCard table th {
+    border: none;
+    padding-left: 0
+}
+
+#creditCard table tr td:nth-child(2), #creditCard table tr th:nth-child(2) {
+    text-align: center
+}
+
+#creditCard table tr td:nth-child(3), #creditCard table tr th:nth-child(3) {
+    text-align: center
+}
+
+#creditCard table tr th:nth-child(4) {
+    text-align: center;
+    padding-right: 50px
+}
+
+#creditCard table tr th:nth-child(2) {
+    padding-left: 30px
+}
+
+#creditCard table tr td:nth-child(4) {
+    text-align: center
+}
+
+.rb-bl-aproval div a:last-child {
+    padding: 5px 20px
+}
+
+.rb-bl-aproval div a:last-child:hover {
+    text-decoration: underline
+}
+
+#creditCard .rb-bl-aproval div p {
+    padding-right: 0
+}
+
+.rb-bl-tabsContent .media-body, .rb-bl-tabsContent .media-left, .rb-bl-tabsContent .media-right {
+    vertical-align: middle !important;
+    padding-right: 20px
+}
+
+.rb-bl-aproval .rb-bl-getInstant {
+    border: 1px solid;
+    padding: 8px 6px;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 5px
+}
+
+.rb-bl-aproval div:first {
+    font-size: 12px;
+    padding-top: 15px;
+    text-transform: uppercase
+}
+
+.rb-bl-tabsContent table tr td {
+    padding: 10px 0;
+    vertical-align: middle
+}
+
+.rb-bl-tabsContent table tr p {
+    padding-top: 16px
+}
+
+#rb-fl-banks .rb-bl-tabsContent .rb-bl-aproval .rb-bl-getInstant:hover, .rb-bl-tabsContent .rb-bl-aproval .rb-bl-getInstant:hover {
+    background-color: #337ab7;
+    color: #fff;
+    -webkit-transition: all ease-in .4s;
+    -moz-transition: all ease-in .4s;
+    -o-transition: all ease-in .4s;
+    -ms-transition: all ease-in .4s
+}
+
+.rb-bl-tabsContent .rb-bl-aproval p:hover {
+    color: #337ab7;
+    text-decoration: underline
+}
+
+.rb-bl-aproval div p {
+    padding-right: 55px
+}
+
+.rb-bl-offers, .rb-bl-partners {
+    padding: 50px 0 80px 0
+}
+
+.rb-btm-50 {
+    padding-bottom: 50px
+}
+
+section.rb-bl-offers {
+    position: relative
+}
+
+section.rb-bl-offers:after {
+    position: absolute;
+    content: "";
+    width: 200px;
+    height: 3px;
+    background: url(/assets/images/line.png);
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
+#creditCard table > tbody > tr > .rb-dropdown-section {
+    padding: 0;
+    border-top: none
+}
+
+#creditCard table > tbody > tr > .rb-dropdown-section .in {
+    border-top: 1px solid #ececec
+}
+
+#creditCard table > tbody > tr > .rb-dropdown-section {
+    background: #f4f4f4
+}
+
+.rb-bl-d-banner {
+    position: relative;
+    background: url(/assets/images/land-texture.png);
+    background-position: right 7px;
+    background-repeat: no-repeat
+}
+
+.rb-bl-bgg {
+    background-color: #b6083d
+}
+
+.rb-bl-d-banner h2, .rb-bl-d-banner h4 {
+    color: #fff;
+    line-height: 40px;
+    font-family: proxima_nova_rgregular
+}
+
+.rb-bl-d-pd20 {
+    padding: 40px 40px 40px 10px
+}
+
+.rb-bl-d-banner h2 span {
+    font-size: 12px;
+    vertical-align: middle;
+    padding-left: 20px
+}
+
+.rb-prdct-s-pd50 {
+    padding: 40px 0 0 0;
+    margin-top: -115px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px 0 #ccc
+}
+
+.rb-prdct-s-axis {
+    padding-bottom: 15px
+}
+
+.rb-prdct-s-av {
+    padding: 20px 0
+}
+
+.rb-prdct-s-pd-20 {
+    border-bottom: 1px solid #ececec;
+    padding: 20px 0
+}
+
+.rb-prdct-s-pd-avail {
+    font-size: 14px;
+    color: #999;
+    line-height: 25px
+}
+
+.rb-prdct-s-pd-app {
+    padding: 15px 0 20px 0;
+    text-align: center
+}
+
+.rb-prdct-s-l-pnl {
+    padding-bottom: 100px
+}
+
+.rb-prdct-s-pd-app1 .rb-footer-wrapper .rb-social-icons i {
+    color: #666 !important
+}
+
+.rb-prdct-s-l-pnl .rb-footer-wrapper li a {
+    margin-right: 20px
+}
+
+.rb-prdct-s-pd-avail p {
+    padding-bottom: 20px
+}
+
+.rb-prdct-s-pd-ava h4, .rb-prdct-s-pd-avail {
+    padding-left: 35px
+}
+
+.rb-prdct-s-pd-app .rb-bl-getInstant {
+    border: 1px solid #0373ba;
+    padding: 14px 22px;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: #0373ba;
+    color: #fff
+}
+
+.rb-prdct-s-pd-app1 {
+    background-color: #fbfbfb;
+    padding-bottom: 80px;
+    padding-top: 40px
+}
+
+.rb-prdct-s-l-pnl .rb-footer-wrapper ul li {
+    padding-left: 34px;
+    margin-top: 16px
+}
+
+.rb-prdct-s-pd-app1 p {
+    text-align: center
+}
+
+.rb-prdct-s-instant {
+    border: 1px solid #fff;
+    padding: 14px 22px;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 5px;
+    background-color: #fff;
+    color: #000;
+    margin: 30px 0 60px 0
+}
+
+.rb-prdct-s-btn {
+    margin: 45px 0 0 0
+}
+
+.rb-prdct-s-box ul h4 {
+    padding-bottom: 5px;
+    font-family: proxima_nova_rgbold
+}
+
+.rb-prdct-s-box ul li {
+    line-height: 30px;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 10px;
+    font-size: 16px;
+    padding-top: 10px;
+    position: relative;
+    padding-left: 30px
+}
+
+.rb-prdct-s-box ul li:after {
+    position: absolute;
+    content: "";
+    height: 12px;
+    width: 14px;
+    background: url(/assets/images/tick.png) no-repeat;
+    background-size: 14px 12px;
+    left: 0;
+    top: 50%;
+    -webkit-transform: translatey(-50%);
+    -ms-transform: translatey(-50%);
+    transform: translatey(-50%)
+}
+
+.rb-prdct-s-box ul li:last-child {
+    border-bottom: none
+}
+
+.rb-prdct-s-box {
+    position: relative;
+    padding: 25px 40px 25px 30px;
+    margin: 50px 20px -20px 20px;
+    box-shadow: 0 2px 8px 0 #ccc;
+    border-radius: 4px
+}
+
+.rb-prdct-s-box:after {
+    position: absolute;
+    content: "";
+    width: 200px;
+    height: 3px;
+    background: url(/assets/images/line.png);
+    bottom: 0;
+    left: 19%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
+.rb-prdct-s-pd-app .breadcrumb {
+    list-style: none;
+    background-color: transparent !important;
+    border-radius: 4px;
+    margin-top: 20px;
+    color: #fff !important;
+    font-size: 12px
+}
+
+.rb-mr-banner {
+    text-align: center;
+    width: 100%;
+    background: url(/assets/images/market-banner.png);
+    color: #fff
+}
+
+.rb-mr-money {
+    padding: 25px 40px 0 40px;
+    background-color: #fff
+}
+
+.rb-mr-panel .media-body h5 {
+    padding-bottom: 5px;
+    line-height: 26px;
+    padding-top: 0;
+    font-size: 18px
+}
+
+.rb-mr-money .media {
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #ccc
+}
+
+.rb-mr-money .media-left {
+    padding-right: 20px
+}
+
+.rb-mr-mny-pnl {
+    padding: 20px 0 0 0
+}
+
+.rb-mr-mny-pnl:first-child {
+    padding: 0
+}
+
+.rb-mr-mny-pnl:last-child {
+    padding-bottom: 0
+}
+
+.rb-mr-mny-pnl:last-child .media {
+    border-bottom: 0
+}
+
+.rb-mr-money .media-body cite {
+    color: #666
+}
+
+.rb-mr-social {
+    background-color: #fff;
+    height: auto
+}
+
+.rb-buton-mrkng, .rb-buton-mrkng1, .rb-buton-mrkng1:hover, .rb-buton-mrkng:hover {
+    color: #fff;
+    text-align: center;
+    width: auto;
+    height: 50px;
+    display: inline-block;
+    border: none;
+    box-shadow: none;
+    font-size: 24px;
+    padding-left: 35px;
+    padding-top: 10px
+}
+
+.rb-mr-pad-15 {
+    padding-left: 10px
+}
+
+.rb-pd-r-0 {
+    padding-right: 0;
+    padding-left: 0
+}
+
+.rb-fb {
+    background-color: #3c5a98
+}
+
+.rb-tw {
+    background-color: #34ccff
+}
+
+.rb-follow-us {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed #ccc;
+    background-color: #fff
+}
+
+.rb-follow-tw {
+    padding: 20px 20px 0 0
+}
+
+.rb-follow-hnw {
+    color: #06c;
+    padding: 20px;
+    line-height: 26px
+}
+
+.rb-flw-us-date, .rb-follow-tw {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.rb-twt {
+    background-color: #32ccfe;
+    height: 50px;
+    text-align: center !important;
+    padding-top: 15px;
+    color: #fff
+}
+
+.rb-img-brd {
+    width: 100%;
+    border-bottom: 1px dashed #ccc;
+    padding-bottom: 20px
+}
+
+.rb-pad-15px {
+    padding-bottom: 15px
+}
+
+.rb-heading-banner {
+    text-align: center;
+    background: url(/assets/images/rb-bg-texture.png) no-repeat #0373ba;
+    background-position: left -400px center;
+    padding: 65px 0;
+    color: #fff
+}
+
+.rb-heading-banner.quote-success-banner img {
+    margin-bottom: 25px
+}
+
+.rb-heading-banner.quote-success-banner h2 {
+    font-size: 30px;
+    margin-bottom: 45px
+}
+
+.rb-heading-banner.quote-success-banner p {
+    font-size: 24px
+}
+
+.rb-quote-form-success {
+    background: #fff;
+    padding: 0 20px
+}
+
+.rb-quote-form form .form-group, .rb-quote-form-success form .form-group {
+    margin: 10px auto;
+    margin-bottom: 20px
+}
+
+.rb-quote-form form .form-group .form-control, .rb-quote-form-success form .form-group .form-control {
+    box-shadow: none
+}
+
+.rb-quote-form form .form-group label, .rb-quote-form-success form .form-group label {
+    font-size: 16px;
+    margin-bottom: 18px;
+    font-weight: 400;
+    color: #333
+}
+
+.rb-quote-form form .form-group label sup, .rb-quote-form-success form .form-group label sup {
+    color: #d5316d;
+    font-size: 18px;
+    top: 0
+}
+
+.rb-quote-form form .form-group input, .rb-quote-form form .form-group select, .rb-quote-form-success form .form-group input, .rb-quote-form-success form .form-group select {
+    font-weight: 700;
+    height: 50px;
+    -webkit-appearance: none
+}
+
+.rb-quote-form form .form-group select, .rb-quote-form-success form .form-group select {
+    background: url(/assets/images/down-arrow.svg) #fbfbfb no-repeat;
+    background-position: right 10px center;
+    background-size: 20px 12px
+}
+
+.rb-quote-form form .form-group input[type=date], .rb-quote-form-success form .form-group input[type=date] {
+    background: url(/assets/images/form-select-cal.png) #fbfbfb no-repeat;
+    background-size: 20px 20px;
+    background-position: right 10px center
+}
+
+#rb-terms-of-use {
+    background: #fff
+}
+
+#rb-terms-of-use header h1 {
+    font-size: 30px;
+    padding: 15px 0 5px 0;
+    border-bottom: 1px dotted #d9d9d9
+}
+
+#rb-terms-of-use p {
+    color: #666
+}
+
+#rb-terms-of-use .terms-of-use-intro {
+    padding: 30px 0;
+    line-height: 24px
+}
+
+#rb-terms-of-use .terms-of-use-intro p {
+    margin-bottom: 20px
+}
+
+#rb-terms-of-use .terms-of-use-intro a {
+    text-transform: none
+}
+
+#rb-terms-of-use .terms-of-use-main .term {
+    line-height: 26px;
+    margin-bottom: 60px
+}
+
+#rb-terms-of-use .terms-of-use-main .term h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 700
+}
+
+#rb-terms-of-use .terms-of-use-main .term ul {
+    padding: 0;
+    list-style: none
+}
+
+#rb-terms-of-use .terms-of-use-main .term ul li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    color: #666
+}
+
+#rb-terms-of-use .terms-of-use-main .term ul li:before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 16px;
+    top: 5px;
+    left: 0;
+    background: url(/assets/images/tick.png) no-repeat;
+    background-size: 13px 10px;
+    background-position: center
+}
+
+.press-d-ov {
+    padding: 80px 0 80px 0;
+    background-color: #f8f7f7
+}
+
+.press-d-ov h2 {
+    padding: 30px
+}
+
+.press-d-img {
+    padding: 0 0 30px 30px
+}
+
+.press-d-img-100 {
+    width: 100%;
+    padding: 0 30px 30px 30px
+}
+
+.rb-main-wrapper .rb-blue-banner {
+    position: relative;
+    background: url(/assets/images/texture.png) #0373ba repeat-y fixed;
+    background-position: right 130px
+}
+
+.rb-blue-banner h2 {
+    color: #cfe6f4;
+    line-height: 42px;
+    font-size: 28px
+}
+
+.rb-bank-details ul li .media {
+    padding: 8px 10px;
+    margin-top: 0
+}
+
+.rb-bank-details ul li .alert {
+    margin-bottom: 0;
+    border-color: #e6e6e6;
+    background: #fff;
+    color: #333;
+    padding: 0
+}
+
+.rb-bank-details ul li .alert .close, .table-bordered > thead > tr > td .alert .close {
+    padding: 0 5px;
+    color: #adadad;
+    opacity: 1
+}
+
+.rb-bank-details .media-body, .rb-bank-details .media-left {
+    vertical-align: middle
+}
+
+.rb-bank-details {
+    padding: 25px 0 20px 0;
+    background: #fafafa
+}
+
+.rb-bank-details li {
+    display: inline-block;
+    width: 210px;
+    margin: 0 10px
+}
+
+.rb-table-section table {
+    margin-bottom: 100px
+}
+
+.rb-table-section h5 {
+    font-size: 20px
+}
+
+.rb-table-section .table > thead > tr > th {
+    border-bottom: 1px solid #ececec;
+    border-top: 1px solid #ececec;
+    padding: 10px 20px;
+    font-size: 12px;
+    color: #999
+}
+
+.rb-table-section .table > thead > tr > th:nth-child(1) {
+    text-align: center
+}
+
+.rb-table-section .table > thead > tr {
+    border-top: 1px solid #ececec;
+    background: #fbfbfb
+}
+
+.rb-table-section .table > tbody > tr > td {
+    padding: 16px
+}
+
+.rb-table-section .table > tbody > tr > td {
+    border-bottom: 1px solid #ececec;
+    background: #fff
+}
+
+.rb-table-section .table > tbody > tr > td:nth-child(1) {
+    vertical-align: middle
+}
+
+.rb-table-section .table > tbody > tr > td:nth-child(2) {
+    font-size: 18px;
+    font-weight: 500;
+    vertical-align: middle;
+    color: #a0a0a0
+}
+
+.rb-table-section .table > tbody > tr > td:nth-child(3), .table-bordered > tbody > tr:nth-child(3) > td, .table-bordered > tbody > tr:nth-child(4) > td {
+    font-size: 18px;
+    font-weight: 500;
+    vertical-align: middle;
+    color: #a0a0a0
+}
+
+.rb-table-section .table > tbody > tr > td:nth-child(4), .table-bordered > tbody > tr:nth-child(2) > td {
+    color: #686868;
+    font-weight: 700
+}
+
+.rb-table-section .table > tbody > tr > td:nth-child(5) {
+    vertical-align: middle;
+    word-break: break-all;
+    font-size: 14px
+}
+
+.rb-table-section .table > tbody > tr > td:nth-child(6) {
+    vertical-align: middle
+}
+
+.rb-features-mobile a.rb-btn, .rb-table-section .table > tbody > tr > td:nth-child(6) a.rb-btn {
+    border: 1px solid #0373ba;
+    padding: 7px 7px;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #0373ba;
+    text-transform: uppercase;
+    font-weight: 700;
+    display: block
+}
+
+.rb-table-section .table > tbody > tr > td:nth-child(6) .rb-query a {
+    text-transform: uppercase;
+    font-size: 12px;
+    display: block;
+    color: #999;
+    margin: 10px 0
+}
+
+.rb-media-banks .rb-details {
+    color: #0373ba;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding-left: 45px
+}
+
+.rb-media-banks .media-left {
+    vertical-align: middle;
+    margin-left: 5px
+}
+
+.rb-media-banks input[type=checkbox] {
+    width: 30px
+}
+
+.table-striped h2 {
+    font-size: 28px
+}
+
+.rb-sticky-section {
+    padding: 12px 0;
+    background-color: #fff;
+    display: none
+}
+
+.rb-sticky-section ul {
+    padding: 0 25px
+}
+
+.rb-sticky-nav-menu li:first-child {
+    text-transform: inherit;
+    margin-left: 0
+}
+
+.rb-sticky-nav-menu li span {
+    margin-right: 10px
+}
+
+.rb-sticky-nav-menu li a img {
+    vertical-align: middle;
+    margin: 0 8px
+}
+
+.rb-sticky-nav-menu li a {
+    font-weight: 700;
+    font-size: 12px;
+    text-transform: uppercase
+}
+
+.rb-sticky-nav-menu li {
+    display: inline-block;
+    margin: 0
+}
+
+.rb-sticky-nav-menu li:nth-child(2) {
+    margin-left: 20px
+}
+
+.rb-bank-details ul .rb-add-prdct {
+    height: 72px;
+    vertical-align: top;
+    border: 1px dashed #c2c2c2;
+    border-radius: 4px;
+    padding: 25px 0;
+    font-size: 13px
+}
+
+.rb-bank-details ul .rb-add-prdct a {
+    color: #9a9a9a
+}
+
+.rb-bank-details ul li:last-child {
+    width: auto;
+    vertical-align: top
+}
+
+.rb-bank-details ul li:last-child a {
+    position: relative;
+    background: #0373ba;
+    display: block;
+    padding: 10px 22px;
+    border-radius: 6px;
+    text-transform: uppercase;
+    font-size: 12px;
+    color: #fff;
+    margin: 20px 0;
+    font-weight: 700
+}
+
+.rb-bank-details ul li:last-child a:after {
+    position: absolute;
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: url(/assets/images/arrow-right.png) no-repeat;
+    background-size: 12px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out
+}
+
+.rb-bank-details ul li:last-child a:hover:after {
+    -webkit-transform: translate(30px, -50%);
+    -ms-transform: translate(30px, -50%);
+    transform: translate(30px, -50%);
+    opacity: 1
+}
+
+.rb-main-wrapper .blog-banner {
+    background: url(/assets/images/blog-banner.jpg) top center no-repeat;
+    background-size: cover
+}
+
+.blog-banner h1 {
+    color: #fff;
+    padding: 75px 0
+}
+
+.blog-section {
+    background: #f8f7f7;
+    padding: 70px 0 0 0
+}
+
+.lp-blog-banner-box {
+    background: #fff;
+    padding: 0 20px 10px 20px;
+    margin-top: 100px
+}
+
+.lp-blog-banner-box h2 {
+    margin: 45px 0 30px 0 !important;
+    font-size: 28px
+}
+
+.lp-blog-banner-box .lp-article-person .lp-article-span {
+    vertical-align: top;
+    display: inline-block;
+    padding: 10px 0 0 15px;
+    color: #999
+}
+
+.rb-blog-inide-cnt {
+    padding: 10px 25px 20px 25px;
+    border-radius: 6px
+}
+
+.lp-blogs-section .lp-blog-img {
+    width: 100%
+}
+
+.rb-blog-heading .media-left img, .rb-blog-inide-cnt .media-left img {
+    height: 50px;
+    width: 50px
+}
+
+.lp-blogs-section .lp-blog-thumbnail {
+    margin-bottom: 70px;
+    border-radius: 6px;
+    background: #fff
+}
+
+.lp-blogs-section .lp-blog-thumbnail .lp-aside {
+    padding-bottom: 25px;
+    border-bottom: 1px dashed #ccc
+}
+
+.lp-blogs-section .lp-aside span {
+    display: inline-block;
+    margin: 20px 17px 10px 0;
+    line-height: 30px;
+    min-height: 70px
+}
+
+.lp-blogs-section .lp-aside p {
+    color: #999;
+    line-height: 26px;
+    margin-right: 5px;
+    min-height: 95px
+}
+
+.lp-blog-thumbnail .rb-blog-inide-cnt .media-body, .rb-blog-heading .media-body {
+    vertical-align: middle
+}
+
+.lp-blogs-section .lp-blog-thumbnail .lp-aside a {
+    margin: 10px 0 0 0;
+    display: block;
+    font-weight: 700;
+    font-size: 12px;
+    color: #0373ba
+}
+
+.lp-blogs-section .media-heading {
+    text-transform: capitalize;
+    color: #999;
+    line-height: 18px;
+    font-weight: 300
+}
+
+.lp-blogs-section h2 {
+    color: #333;
+    margin-bottom: 20px
+}
+
+.lp-blog-thumbnail .blog-post-meta {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    text-transform: uppercase;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center
+}
+
+.lp-blog-thumbnail .blog-post-meta a.blog-filter {
+    padding: 5px;
+    color: #fff;
+    font-weight: 400
+}
+
+a.blog-filter.filter-01 {
+    background: #71c044
+}
+
+a.blog-filter.filter-02 {
+    background: #d5316d
+}
+
+a.blog-filter.filter-03 {
+    background: #0273bb
+}
+
+a.blog-filter.filter-04 {
+    background: #ffbc13
+}
+
+a.blog-filter.filter-05 {
+    background: #ae5ea5
+}
+
+a.blog-filter.filter-06 {
+    background: #f77121
+}
+
+.rb-main-wrapper .press-banner {
+    background: url(/assets/images/press-banner.jpg) top center no-repeat;
+    background-size: 100%
+}
+
+.rb-press-padding {
+    padding-bottom: 70px
+}
+
+.press-banner h1, .rb-mr-banner h1 {
+    padding: 63px 0
+}
+
+.press-banner a, .rb-mr-banner a {
+    margin-bottom: 30px;
+    text-decoration: underline;
+    display: inline-block;
+    font-weight: 700;
+    letter-spacing: 1
+}
+
+.blog-section .lp-blog-thumbnail .rb-media-footer {
+    margin: 25px 0 10px 0
+}
+
+.lp-blogs-section .rb-view, .tab-content .lp-blog-thumbnail {
+    margin-bottom: 50px
+}
+
+.lp-blogs-section .rb-view {
+    display: block;
+    text-decoration: underline
+}
+
+.lp-blogs-section .lp-blogs-section {
+    overflow: hidden;
+    padding: 60px 0 10px 0
+}
+
+.lp-blogs-section .tab-content .btn-info {
+    margin-top: 25px
+}
+
+.lp-blogs-section .nav-tabs > li {
+    float: left;
+    margin: 0 15px 0 0;
+    font-weight: 700
+}
+
+.lp-blogs-section .nav-tabs > li > a {
+    border: none !important;
+    padding: 5px;
+    font-size: 16px
+}
+
+.lp-blogs-section .nav-tabs > li > a:hover {
+    background: 0 0
+}
+
+.lp-blogs-section .nav-tabs > li.active > a, .lp-blogs-section .nav-tabs > li.active > a:focus, .nav-tabs > li.active > a:hover {
+    background: 0 0
+}
+
+.lp-blogs-section .nav-tabs > li.active > a {
+    background: #f8f7f7
+}
+
+.lp-blogs-section .items {
+    padding-bottom: 15px
+}
+
+.lp-blogs-section .items .nav-tabs > li.active > a, .rb-enquirey a {
+    color: #06c
+}
+
+.lp-blogs-section .items .nav-tabs .active {
+    border-bottom: 2px solid #06c;
+    color: #06c;
+    padding-bottom: 8px
+}
+
+.lp-blogs-section .items .nav-tabs > li {
+    float: none !important;
+    display: inline-block !important
+}
+
+.lp-blogs-section .items .nav-tabs > li > a {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #999;
+    padding: 0
+}
+
+.lp-blogs-section.items .nav-tabs > li > .item-effect:focus:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    -ms-transform: scaleX(1);
+    transform: scaleX(1)
+}
+
+.tab-content .media-left {
+    padding-right: 25px
+}
+
+.tab-content .media .media-body a {
+    color: #999 !important;
+    font-size: 14px;
+    font-family: Gotham-Book;
+    line-height: 23px
+}
+
+.tab-content .media .media-body {
+    padding-left: 10px !important
+}
+
+.tab-content .media .media-body .media-heading {
+    color: #666;
+    margin-bottom: 15px
+}
+
+.tab-content .media .media-body a .lp-clr-pink {
+    font-size: 18px
+}
+
+.rb-blog-details, .rb-enquirey {
+    padding: 40px 0
+}
+
+.rb-blog-details .rb-blog-heading {
+    border-bottom: 1px dashed #ccc;
+    margin-bottom: 20px
+}
+
+.lp-blog_details-article .rb-blog-name {
+    margin: 5px 0 5px 0;
+    display: block;
+    font-weight: 700
+}
+
+.lp-blog_details-article .lp-blog-span {
+    display: block;
+    padding-bottom: 15px
+}
+
+.lp-blog_details-article .rb-blog-heading .media {
+    margin-bottom: 20px
+}
+
+.lp-blog_details-article .lp-blog-img {
+    margin: 45px 0
+}
+
+.lp-blog_details-article p {
+    line-height: 28px;
+    margin-bottom: 20px;
+    color: #666
+}
+
+.lp-blog_details-article h5 {
+    margin: 40px 0 30px 0;
+    font-weight: 700
+}
+
+.lp-blog_details-article .rb-blog-heading .media span {
+    font-weight: 500
+}
+
+.rb-blog-details-pagination {
+    border-bottom: 1px solid #ececec;
+    border-top: 1px solid #ececec
+}
+
+.pagination > li > span, .rb-blog-details-pagination .pagination > li > a {
+    border: none
+}
+
+.rb-blog-details-pagination .pagination {
+    margin: 5px 0 5px 0
+}
+
+.pagination > li > a:hover, .pagination > li > span:focus, .pagination > li > span:hover, .rb-blog-details-pagination .pagination > li > a:focus {
+    background: 0 0
+}
+
+.rb-blog-details-pagination .pagination > li > a {
+    padding: 4px 5px
+}
+
+.rb-mr-money .media {
+    padding-bottom: 30px;
+    border-bottom: 1px dashed #ccc
+}
+
+.rb-mr-panel {
+    padding: 80px 0;
+    background: #f8f7f7
+}
+
+.rb-mr-money {
+    padding: 25px 40px 0 40px;
+    background-color: #fff
+}
+
+.rb-mr-mny-pnl h2 {
+    margin-bottom: 20px
+}
+
+.rb-mr-mny-pnl .media span {
+    margin-top: 26px
+}
+
+.rb-mr-mny-pnl .media .media-left {
+    padding-right: 20px
+}
+
+.rb-money-pannel .media-body h5 {
+    padding-bottom: 0;
+    line-height: 28px
+}
+
+.rb-money-pannel .media-body cite {
+    color: #666;
+    margin-top: 30px;
+    display: block
+}
+
+.rb-mr-mny-pnl {
+    padding: 30px 0 0 0
+}
+
+.rb-mr-mny-pnl:first-child {
+    padding: 0
+}
+
+.rb-mr-mny-pnl:last-child {
+    padding-bottom: 0
+}
+
+.rb-mr-mny-pnl:last-child .media {
+    border-bottom: 0
+}
+
+.rb-enquirey .rb-email {
+    margin-top: 20px
+}
+
+.rb-career-banner {
+    background: url(/assets/images/culture/career_banner.png) no-repeat;
+    background-color: rgba(8, 8, 8, .68);
+    background-size: 100% 100%;
+    padding: 17% 0
+}
+
+.rb-about-work p, .rb-cul-content p {
+    margin: 20px 20px 40px 20px;
+    line-height: 26px
+}
+
+.rb-border-box {
+    margin: 0 70px;
+    border-bottom: 1px dashed #ececec;
+    padding-bottom: 10px
+}
+
+.rb-border-box .media-heading {
+    font-size: 18px;
+    font-family: proxima_nova_rgbold
+}
+
+.rb-border-box .media-body p {
+    font-size: 14px;
+    line-height: 26px;
+    padding-left: 20px
+}
+
+.rb-border-box .media-body {
+    padding-left: 20px
+}
+
+.rb-border-box .rb-health-benefits, .rb-border-box .rb-insurance {
+    padding: 0 40px 50px 0
+}
+
+.rb-border-box .rb-work-allowance, .rb-border-box .rb-work-transport {
+    padding: 0 0 50px 30px
+}
+
+.rb-our-cluture {
+    padding: 50px 0 0 0
+}
+
+.rb-cul-content p {
+    margin: 20px 80px 20px 80px
+}
+
+.rb-cul-content {
+    padding-bottom: 20px
+}
+
+.our-culture-galler1, .our-culture-galler11 {
+    background: url(/assets/images/culture/cul-1.png);
+    background-size: cover;
+    height: 190px;
+    overflow: hidden
+}
+
+.our-culture-galler11 {
+    background: url(/assets/images/culture/cul-2.png) no-repeat
+}
+
+.our-culture-galler1, .our-culture-galler3 {
+    margin-bottom: 10px
+}
+
+.our-culture-galler2 {
+    background: url(/assets/images/culture/cul-3.png) no-repeat;
+    height: 390px;
+    background-size: cover;
+    margin: 0 10px
+}
+
+.our-culture-galler3 {
+    background: url(/assets/images/culture/cul-4.png) no-repeat;
+    height: 190px;
+    background-size: cover
+}
+
+.our-culture-galler31 {
+    background: url(/assets/images/culture/cul-5.png) no-repeat;
+    height: 190px;
+    background-size: cover
+}
+
+.our-culture-galler4 {
+    background: url(/assets/images/culture/cul-6.png) no-repeat;
+    height: 390px;
+    background-size: cover;
+    margin-left: 10px
+}
+
+.rb-table-first > thead > tr > th, .rb-table-second > thead > tr > th {
+    text-align: center;
+    border-bottom: none;
+    font-family: proxima_nova_rgbold;
+    font-size: 16px;
+    color: #999;
+    padding-top: 34px
+}
+
+.rb-table-first > tbody > tr > td, .rb-table-second > tbody > tr > td {
+    border-top: none;
+    padding: 20px 0
+}
+
+.rb-table-first > tbody > tr > td > a, .rb-table-second > tbody > tr > td > a {
+    color: #0373ba;
+    font-family: proxima_nova_rgbold;
+    font-size: 18px
+}
+
+caption {
+    padding: 25px 0 5px 0
+}
+
+.rb-table-first .rb-tbody, .rb-table-second .rb-tbody {
+    border-bottom: 1px dashed #ececec
+}
+
+.rb-table-and1, .rb-table-cor, .rb-table-direc {
+    padding: 20px 0
+}
+
+.rb-table-and1-loc {
+    font-size: 14px;
+    color: #999;
+    padding-bottom: 15px !important
+}
+
+.rb-table-first {
+    margin-top: 32px
+}
+
+.rb-tbody tr {
+    border-bottom: 1px dashed #d1d5d9
+}
+
+.rb-current-open table > tbody > tr:last-child {
+    border-bottom: 1px solid transparent
+}
+
+.rb-current-open table > tbody > tr > td:nth-child(2) {
+    color: #999
+}
+
+.rb-work-here caption {
+    font-weight: 600
+}
+
+.rb-right-choice p {
+    margin-top: 15px
+}
+
+.rb-right-choice #btnu-shape {
+    margin: 40px auto 50px auto
+}
+
+.rb-detail-btn .btn-default {
+    background: #0373ba;
+    color: #fff;
+    outline: 0
+}
+
+.rb-current-open table > tbody > tr > td:last-child {
+    padding: 0;
+    vertical-align: middle
+}
+
+.rb-current-open .rb-detail-btn {
+    visibility: hidden
+}
+
+.rb-current-open table > tbody > tr:hover > td > .rb-detail-btn {
+    visibility: visible
+}
+
+.contact-banner {
+    background: url(/assets/images/contact-banner.png) no-repeat;
+    background-size: 100% 100%;
+    padding: 6% 0
+}
+
+.contact-banner h2 {
+    font-size: 35px
+}
+
+.rb-contact-form {
+    padding: 70px 0
+}
+
+.rb-contact-form h2 {
+    color: #666;
+    margin-bottom: 10px
+}
+
+.rb-application .rb-form .form-group .form-control, .rb-contact-form .form-group .form-control {
+    height: 45px
+}
+
+.rb-contact-form .rb-left-wrapper {
+    padding-right: 20px
+}
+
+.rb-contact-form .rb-right-wrapper {
+    border-left: 1px solid #ececec;
+    padding-left: 30px
+}
+
+.rb-right-wrapper .get-in-touch {
+    margin: 0 -6px;
+    font-size: 14px;
+    border-color: transparent;
+    box-shadow: none;
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-top: 30px
+}
+
+.rb-contact-form .rb-left-wrapper .media-body {
+    vertical-align: middle;
+    padding-left: 5px
+}
+
+.rb-contact-form .rb-left-wrapper .media {
+    border-bottom: 1px dashed #d1d5d9;
+    padding: 25px 0;
+    margin: 0
+}
+
+.rb-contact-form .rb-left-wrapper .media:last-child {
+    border-bottom: none
+}
+
+.rb-contact-form .rb-left-wrapper .media-body p {
+    font-size: 14px;
+    margin-top: 2px;
+    color: #999
+}
+
+.rb-contact-form .rb-left-wrapper .media-body a {
+    font-size: 24px;
+    color: #333;
+    font-family: proxima_nova_rgbold
+}
+
+.rb-contact-form .rb-left-wrapper .media-body .rb-mail {
+    color: #0373ba
+}
+
+.rb-cs-btnu-send .rb-cs-btnu-send-style {
+    position: relative;
+    z-index: 1;
+    display: block;
+    background: 0 0;
+    width: 182px;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    text-transform: uppercase
+}
+
+.rb-cs-btnu-send .rb-cs-btnu-send-style:after, .rb-cs-btnu-send .rb-cs-btnu-send-style:before {
+    width: 179px;
+    left: 0;
+    height: 30px;
+    z-index: -1
+}
+
+.rb-btnu-send-style {
+    color: #0373ba;
+    font-family: proxima_nova_rgbold
+}
+
+.rb-cs-btnu-send-style:after, .rb-cs-btnu-send-style:before {
+    border: 3px solid #0373ba;
+    border-radius: 6px
+}
+
+.rb-cs-btnu-send .rb-cs-btnu-send-style:before {
+    position: absolute;
+    content: '';
+    border-bottom: none;
+    -webkit-transform: perspective(6px) rotateX(3deg);
+    transform: perspective(6px) rotateX(3deg);
+    -webkit-transition: all .25s linear;
+    transition: all .25s linear
+}
+
+.rb-cs-btnu-send .rb-cs-btnu-send-style:after {
+    position: absolute;
+    top: 29px;
+    content: '';
+    border-top: none;
+    -webkit-transform: perspective(11px) rotateX(-5deg);
+    transform: perspective(11px) rotateX(-5deg);
+    -webkit-transition: all .25s linear;
+    transition: all .25s linear
+}
+
+.rb-cs-btnu-send .rb-cs-btnu-send-style {
+    margin: 32px 22px
+}
+
+.rb-cs-form-checkbox {
+    width: 26px;
+    height: 22px;
+    vertical-align: middle
+}
+
+.rb-selecting-check {
+    margin: 40px 15px
+}
+
+.rb-form .form-group {
+    margin-bottom: 0
+}
+
+.rb-form label {
+    padding: 15px 0
+}
+
+.rb-right-wrapper form.rb-form button.btn.rb-btn-submit-md {
+    margin: 0;
+    margin-left: 10px
+}
+
+.rb-career-details-hd {
+    border-bottom: 1px dashed #d1d5d9;
+    padding-bottom: 15px
+}
+
+.rb-career-details-hd .rb-cs-btnu-send-style {
+    margin: 0
+}
+
+.rb-cd-android-cnt {
+    margin-top: 60px
+}
+
+.rb-cd-android-cnt p {
+    padding: 30px 0
+}
+
+.rb-about-rubiq p, .rb-developer-box p {
+    line-height: 24px
+}
+
+.rb-about-rubiq {
+    padding-right: 15px
+}
+
+.rb-about-rubiq p {
+    padding-bottom: 15px
+}
+
+.rb-developer-box h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 20px
+}
+
+.rb-what-do li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 15px;
+    color: #333;
+    line-height: 28px
+}
+
+.rb-what-do {
+    border-bottom: 1px dashed #d1d5d9;
+    padding-bottom: 15px;
+    margin-bottom: 40px
+}
+
+.rb-what-do li:before {
+    position: absolute;
+    content: "";
+    width: 13px;
+    height: 10px;
+    top: 7px;
+    left: 0;
+    background: url(/assets/images/tick.png) no-repeat;
+    background-size: 13px 10px;
+    background-position: center
+}
+
+.rb-back-list .rb-cs-btnu-send-style {
+    display: inline-block
+}
+
+.rb-right-choice .rb-cs-btnu-send .rb-cs-btnu-send-style {
+    display: inline-block;
+    margin: 40px auto
+}
+
+.table-bordered > tbody > tr > td, .table-bordered > tbody > tr > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+    border-color: #ececee
+}
+
+.rb-compare-product .table-bordered {
+    border: none
+}
+
+.table-bordered > tbody > tr > th, .table-bordered > thead > tr > th {
+    text-align: right;
+    padding: 20px 35px 20px 0;
+    word-wrap: break-word;
+    border-left: 0
+}
+
+.table-bordered > thead > tr > td .alert .media .media-body {
+    padding-right: 40px
+}
+
+.table-bordered > thead > tr:nth-child(1) > td {
+    padding: 0 10px
+}
+
+.table-bordered > tbody > tr > td {
+    text-align: center;
+    vertical-align: middle
+}
+
+.table-bordered > tbody > tr:nth-child(1) > td {
+    font-weight: 700;
+    font-size: 24px
+}
+
+.table-bordered > tbody > tr:last-child > th {
+    vertical-align: middle
+}
+
+.table-bordered > tbody > tr:last-child > td ul {
+    color: #999;
+    font-weight: 700;
+    font-size: 14px;
+    padding: 20px 0
+}
+
+.table-bordered > tbody > tr:last-child > td, .table-bordered > tbody > tr:last-child > th, .table-bordered > thead > tr > td, .table-bordered > thead > tr > th {
+    border-bottom: none
+}
+
+.apply-btn {
+    background: #0374ba;
+    padding: 8px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 10px 0 0 0;
+    display: inline-block
+}
+
+.table-bordered > tbody > tr:nth-child(3) > td, .table-bordered > tbody > tr:nth-child(4) > td {
+    color: #686868;
+    font-weight: 700
+}
+
+.table-bordered .alert {
+    margin-bottom: 0;
+    padding: 0;
+    background: 0 0;
+    border-color: transparent
+}
+
+.rb-cs-btnu-send {
+    position: relative;
+    margin: 0 0
+}
+
+.rb-cs-btnu-send span {
+    position: absolute;
+    right: 0;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+.rb-developer-box button.btn.rb-btn-submit-md {
+    margin: 0
+}
+
+input[type=number]::-webkit-inner-spin-button, input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0
+}
+
+input[type=date]::-webkit-inner-spin-button, input[type=date]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0
+}
+
+.rb-blog-inide-cnt, .rb-sticky-section {
+    box-shadow: 0 6px 15px -8px rgba(0, 0, 0, .49)
+}
+
+.bank-landing-faq.stick {
+    position: fixed;
+    top: 60px;
+    opacity: 1;
+    z-index: 1000;
+    left: 0;
+    right: 0;
+    background: #fff;
+    box-shadow: 0 6px 15px -8px rgba(0, 0, 0, .49)
+}
+
+.panel-group .panel-heading {
+    border-bottom: 1px solid #ececec
+}
+
+.all-courses-section .list-section .panel-group .panel-body, .panel-group .panel-body p {
+    padding: 0;
+    font-weight: 400
+}
+
+.panel-group .panel-body p {
+    padding: 10px 0 5px 0;
+    line-height: 30px
+}
+
+.panel-heading {
+    padding: 40px 0 30px 0
+}
+
+.panel-title {
+    font-size: 24px
+}
+
+.panel-heading .accordion-toggle:after {
+    font-family: Fontawesome;
+    content: "\f106";
+    float: right;
+    font-size: 24px;
+    font-weight: 700;
+    margin-top: -4px
+}
+
+.panel-heading .accordion-toggle.collapsed:after {
+    content: "\f107"
+}
+
+.list-section .panel-group .panel-heading + .panel-collapse > .panel-body {
+    border-top: 0
+}
+
+.rb-dropdown-section .panel-body {
+    padding: 35px 10px 10px 10px
+}
+
+.rb-table-section .table > tbody > tr > td.rb-dropdown-section {
+    background: #f4f4f4;
+    padding: 0;
+    border-radius: 6px;
+    border: 1px solid #ececec
+}
+
+.rb-table-section .table > tbody > tr > td.rb-dropdown-section h2 {
+    font-weight: 700
+}
+
+.rb-header-accordian .col-md-2 {
+    border-right: 1px solid #d1d5d9;
+    text-align: center
+}
+
+.rb-header-accordian .col-md-2:last-child {
+    border-right: none;
+    text-align: right
+}
+
+.rb-header-accordian .col-md-2:first-child {
+    text-align: left
+}
+
+.rb-accordian-content {
+    padding: 40px 0 0 0;
+    border-bottom: 1px solid #ececec
+}
+
+.rb-accordian-content h6 {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    border-bottom: none
+}
+
+.rb-accordian-content .rb-what-do {
+    border-bottom: none;
+    margin-bottom: 0
+}
+
+.rb-accordian-content .rb-what-do li {
+    line-height: 20px;
+    border-bottom: 1px dashed #d1d5d9;
+    padding: 0 0 8px 30px
+}
+
+.rb-accordian-content .rb-what-do li:last-child {
+    border-bottom: none
+}
+
+.rb-accordian-content-foot {
+    margin-top: 20px
+}
+
+.rb-dropdown-section .alert {
+    margin-bottom: 0
+}
+
+.rb-accordian-content .rb-documents {
+    padding-bottom: 20px
+}
+
+.rb-accordian-content .rb-documents li {
+    padding-bottom: 10px
+}
+
+.rb-dropdown-section .apply-btn {
+    padding: 15px 25px;
+    margin-right: 10px
+}
+
+.rb-home-popup .modal-content {
+    margin: 8% 10%
+}
+
+.rb-home-popup .modal-header {
+    background-color: #ecebeb;
+    padding: 10px 20px 0 50px;
+    border-radius: 4px
+}
+
+.rb-home-popup .modal-title {
+    font-size: 30px;
+    padding: 15px 0
+}
+
+.rb-home-p-banner {
+    background-image: url(/assets/images/hm-texture.png);
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    margin-right: -17px
+}
+
+.rb-home-popup .close {
+    margin-right: 17px;
+    font-size: 30px
+}
+
+.rb-modal-social-login span {
+    display: block;
+    margin-bottom: 10px
+}
+
+.rb-modal-social-login button.btn.rb-btn-social {
+    padding: 0;
+    padding-right: 40px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    border: 0;
+    color: #fff;
+    width: 200px;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase
+}
+
+.rb-modal-social-login button.btn.rb-btn-social.gp {
+    background: #df4a33
+}
+
+.rb-modal-social-login button.btn.rb-btn-social.fb {
+    background: #39579a
+}
+
+.rb-modal-social-login button.btn.rb-btn-social i.fa.fa-facebook, .rb-modal-social-login button.btn.rb-btn-social i.fa.fa-google-plus {
+    position: relative;
+    margin: 0;
+    padding: 15px;
+    margin-right: 15px;
+    float: left;
+    width: 44px;
+    height: 44px
+}
+
+.rb-modal-social-login button.btn.rb-btn-social i.fa.fa-facebook:after, .rb-modal-social-login button.btn.rb-btn-social i.fa.fa-google-plus:after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 100%;
+    background: rgba(255, 255, 255, .5);
+    top: 0;
+    right: 0
+}
+
+.rb-home-popup .rb-bl-p-form .google-btn input, .rb-home-popup .rb-bl-p-form .google-btn span, .rb-member .rb-bl-p-form .google-btn input, .rb-member .rb-bl-p-form .google-btn span {
+    background-color: #de4a32;
+    color: #fff;
+    font-size: 12px
+}
+
+.rb-home-popup .rb-bl-p-form .facebook-btn input, .rb-home-popup .rb-bl-p-form .facebook-btn span, .rb-member .rb-bl-p-form .facebook-btn input, .rb-member .rb-bl-p-form .facebook-btn span {
+    background-color: #3a589a;
+    color: #fff;
+    font-size: 12px
+}
+
+.rb-home-popup .rb-bl-p-form .google-btn span, .rb-member .rb-bl-p-form .google-btn span {
+    padding: 13px
+}
+
+.rb-home-popup .rb-bl-p-form .facebook-btn span, .rb-member .rb-bl-p-form .facebook-btn span {
+    padding: 10px 20px;
+    font-size: 14px
+}
+
+.rb-home-popup .rb-bl-p-form .facebook-btn input, .rb-home-popup .rb-bl-p-form .google-btn input {
+    padding: 19px 12px
+}
+
+.rb-bl-p-form .google-btn input {
+    padding: 19px 30px
+}
+
+.rb-member .rb-bl-p-form .facebook-btn input {
+    padding: 19px 25px
+}
+
+.rb-member .facebook-btn, .rb-member .google-btn {
+    width: 190px
+}
+
+.rb-member .google-btn {
+    margin-right: 20px
+}
+
+.rb-member .google-btn input {
+    padding: 22px 30px
+}
+
+.rb-member .facebook-btn input {
+    padding: 22px 25px !important
+}
+
+.rb-home-popup .facebook-btn {
+    width: 140px
+}
+
+.rb-home-popup .google-btn {
+    width: 125px;
+    margin: 10px
+}
+
+.has-feedback .form-control {
+    padding: 0
+}
+
+.pop-padd {
+    padding: 20px 40px 40px 40px
+}
+
+.pop-padd .pop-brdr {
+    border-right: 1px dotted #ccc
+}
+
+.pop-padd form {
+    margin-right: 20px
+}
+
+.pop-padd form input {
+    padding: 16px;
+    background-color: #f7f7f7;
+    font-size: 16px;
+    -moz-box-sizing: border-box;
+    height: 100%
+}
+
+.pop-padd form .form-group:first-child {
+    margin-bottom: 20px !important
+}
+
+.pop-padd:first-child #btnu-shape .button:after {
+    -webkit-transform: perspective(25px) rotateX(-15deg);
+    transform: perspective(25px) rotateX(-15deg)
+}
+
+.pop-padd:first-child #btnu-shape .button:before {
+    -webkit-transform: perspective(9px) rotateX(6deg);
+    transform: perspective(10px) rotateX(6deg);
+    -webkit-transition: all .25s linear;
+    transition: all .25s linear
+}
+
+.pop-padd:first-child #btnu-shape .button:after, .pop-padd:first-child #btnu-shape .button:before {
+    width: 150px;
+    margin-left: 5px
+}
+
+.pop-padd:first-child #btnu-shape {
+    width: 290px
+}
+
+.pop-padd:first-child #btnu-shape .button {
+    width: 160px
+}
+
+.pop-padd:first-child .violet:after, .pop-padd:first-child .violet:before, .pop-padd:first-child .violet:hover:after {
+    background-color: #fff
+}
+
+.pop-padd:first-child .violet {
+    color: #0373ba
+}
+
+#pop-sec-child .violet:after, #pop-sec-child .violet:before, #pop-sec-child .violet:hover:after {
+    background-color: #0373ba
+}
+
+#pop-sec-child .violet {
+    color: #fff
+}
+
+.frgot-psw {
+    margin-top: 0;
+    font-size: 14px;
+    color: #999;
+    display: block
+}
+
+.pop-padd:last-child h4 {
+    font-size: 20px;
+    padding-bottom: 20px
+}
+
+.pop-padd:last-child p {
+    font-size: 18px;
+    color: #999;
+    line-height: 30px
+}
+
+#pop-sec-child {
+    padding: 30px 40px
+}
+
+#myModal2 .modal-content {
+    margin: 20% 28%
+}
+
+#myModal2 .modal-content.modal-password-rec {
+    width: 350px;
+    display: block;
+    margin: 0 auto
+}
+
+#myModal2 .modal-header {
+    background-color: none;
+    height: none;
+    padding-left: none;
+    border-radius: none
+}
+
+#myModal2 .modal-header {
+    min-height: none;
+    padding: none;
+    border-bottom: none
+}
+
+#myModal2 h4 {
+    font-size: 30px;
+    padding-bottom: 20px
+}
+
+#myModal2 .pop-padd {
+    padding: 0 20px 0 40px
+}
+
+#myModal2 .frgot-psw {
+    padding-right: 20px
+}
+
+#myModal2 .modal-body {
+    padding: 0 15px 10px 15px
+}
+
+#myModal2 .bnr-text {
+    margin-right: 20px;
+    padding-bottom: 20px
+}
+
+#myModal2 .modal-header .close {
+    font-size: 30px
+}
+
+#myModal3 .modal-content {
+    margin: 20% 28%
+}
+
+#myModal3 .modal-content.modal-password-rec {
+    width: 350px;
+    display: block;
+    margin: 0 auto
+}
+
+#myModal3 .modal-header {
+    background-color: none;
+    height: none;
+    padding-left: none;
+    border-radius: none
+}
+
+#myModal3 .modal-header {
+    min-height: none;
+    padding: none;
+    border-bottom: none
+}
+
+#myModal3 h4 {
+    font-size: 30px;
+    padding-bottom: 20px
+}
+
+#myModal3 .pop-padd {
+    padding: 0 20px 0 40px
+}
+
+#myModal3 .frgot-psw {
+    padding-right: 20px
+}
+
+#myModal3 .modal-body {
+    padding: 0 15px 10px 15px
+}
+
+#myModal3 .bnr-text {
+    margin-right: 20px;
+    padding-bottom: 20px
+}
+
+#myModal3 .modal-header .close {
+    font-size: 30px
+}
+
+.rb-register-banner {
+    height: 220px;
+    background: url(/assets/images/new-site/register-banner-new.jpg) no-repeat;
+    background-size: cover
+}
+
+.rb-register {
+    border: 1px solid #e1e1e1;
+    margin: 65px 0
+}
+
+.rb-padd40 {
+    padding: 90px 235px
+}
+
+.rb-color999 {
+    color: #999
+}
+
+.rb-register h5 {
+    padding: 10px 0 20px 0
+}
+
+.rb-member .rb-registerd-membr input, .rb-register .rb-rgstr-newUser input {
+    font-size: 16px;
+    padding: 0 15px
+}
+
+.rb-register .rb-rgstr-newUser .form-group {
+    margin: 15px 0
+}
+
+.rb-register .rb-rgstr-newUser .form-control {
+    height: 45px
+}
+
+.rb-register .rb-rgstr-newuser {
+    position: relative
+}
+
+.rb-register .rb-rgstr-newuser:after {
+    position: absolute;
+    content: "OR";
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 30px;
+    background: #fff;
+    border: 1px solid #e1e1e1;
+    top: 50%;
+    right: -15px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%)
+}
+
+.rb-signup-easy {
+    padding: 40px
+}
+
+.rb-signup-easy h4 {
+    margin-top: 80px;
+    text-align: center
+}
+
+.rb-signup-easy h5 {
+    padding-bottom: 50px;
+    text-align: center
+}
+
+.rb-signup-easy button.btn.rb-btn-social {
+    padding: 0;
+    padding-right: 40px;
+    margin-bottom: 30px;
+    border: 0;
+    color: #fff;
+    width: 100%;
+    line-height: 44px;
+    text-align: center;
+    text-transform: uppercase
+}
+
+.rb-signup-easy button.btn.rb-btn-social.gp {
+    background: #df4a33
+}
+
+.rb-signup-easy button.btn.rb-btn-social.fb {
+    background: #39579a
+}
+
+.rb-signup-easy button.btn.rb-btn-social i.fa.fa-facebook, .rb-signup-easy button.btn.rb-btn-social i.fa.fa-google-plus {
+    position: relative;
+    margin: 0;
+    padding: 15px;
+    margin-right: 15px;
+    float: left;
+    width: 44px;
+    height: 44px
+}
+
+.rb-signup-easy button.btn.rb-btn-social i.fa.fa-facebook:after, .rb-signup-easy button.btn.rb-btn-social i.fa.fa-google-plus:after {
+    position: absolute;
+    content: "";
+    width: 1px;
+    height: 100%;
+    background: rgba(255, 255, 255, .5);
+    top: 0;
+    right: 0
+}
+
+.rb-member .rb-bl-p-form {
+    margin-top: 10px
+}
+
+.rb-member .rb-brdr-line {
+    border-bottom: 1px dotted #d1d5d9
+}
+
+.rb-member .line-parent {
+    position: relative
+}
+
+.rb-member .rb-brdr-circle {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #f9f9f9;
+    position: absolute;
+    bottom: -16px;
+    left: 45%;
+    padding: 7px 0 0 6px;
+    border: 1px solid #e1e1e1;
+    font-size: 12px
+}
+
+.extra-mar {
+    margin: 15px 0
+}
+
+.rb-mar-40 {
+    margin: 40px 0
+}
+
+.rb-rgstr-patrn {
+    height: 80px;
+    position: relative
+}
+
+.rb-member {
+    height: 596px;
+    background: url(/assets/images/register-texture.png) no-repeat;
+    background-position: right bottom
+}
+
+.rb-rgstr-newUser form .btn.rb-btn-submit-lg {
+    margin: 25px 54px 24px 28px
+}
+
+.rb-member form .btn.rb-btn-submit-md {
+    margin: 0;
+    margin-top: 30px
+}
+
+.rb-fp-register {
+    margin-top: -40px;
+    margin-right: 75px
+}
+
+.rb-ab-banner {
+    background: url(/assets/images/aboutus/banner.png) center no-repeat;
+    background-size: cover;
+    height: 498px
+}
+
+.rb-ab-content-table {
+    position: relative;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    display: table;
+    color: #fff;
+    font-size: 30px
+}
+
+.nav-scroller {
+    border-bottom: 1px solid #ccc
+}
+
+.ns-wrappe-sticky-section .nav-list {
+    line-height: 45px
+}
+
+.ns-wrappe-sticky-section .nav-list li {
+    display: inline-block
+}
+
+.nav-list li a {
+    text-transform: uppercase;
+    color: #666
+}
+
+.ns-wrappe-sticky-section .nav-list li {
+    color: #656d78;
+    margin: 0 60px 0 0;
+    font-size: 14px
+}
+
+.ns-wrappe-sticky-section.layout-plan a {
+    margin-bottom: 15px;
+    display: block
+}
+
+.ns-wrappe-sticky-section .layout-plan li {
+    display: inline-block
+}
+
+.vm-get-started_img img {
+    vertical-align: middle;
+    padding-left: 10px
+}
+
+#nav-scroll {
+    background: #fff;
+    padding-top: 5px
+}
+
+.ns-wrappe-sticky-section .ns-sticky-nav-pading50 {
+    padding: 15px 0 0 21px;
+    background: #fff
+}
+
+.ns-wrappe-sticky-section .nav-list li a {
+    color: #656d78;
+    padding: 10px 0 12px 0;
+    font-size: 16px
+}
+
+.nav-list li.active a {
+    border-bottom: 3px solid #06c;
+    color: #06c;
+    font-weight: 700
+}
+
+.rb-ab-content {
+    background-color: #fff;
+    height: auto
+}
+
+.rb-ab-content ul {
+    border-bottom: 1px solid #ccc;
+    margin-top: 50px;
+    padding-bottom: 10px
+}
+
+.rb-ab-content ul li a {
+    padding: 0;
+    margin-right: 80px;
+    color: #797979;
+    background-color: transparent !important;
+    display: inline;
+    border: none
+}
+
+.rb-ab-content ul li a:focus {
+    color: #06c;
+    border-bottom: 2px solid #06c;
+    font-family: proxima_nova_rgbold
+}
+
+.rb-ab-about-brand, .rb-ab-about-fin, .rb-ab-about-way {
+    padding-left: 0;
+    line-height: 24px
+}
+
+.rb-ab-about-brand h4:first-child, .rb-ab-about-fin h4:first-child, .rb-ab-about-invest h4:first-child, .rb-ab-about-way h4:first-child {
+    font-size: 20px;
+    font-family: proxima_nova_rgbold;
+    margin: 46px 0 21px 0
+}
+
+.rb-ab-about-para1 {
+    margin-bottom: 14px
+}
+
+.rb-ab-about-para2 {
+    margin: 11px 0 11px 0
+}
+
+.rb-ab-about-hr hr {
+    border-top: 1px dashed #d9d9d9;
+    margin: 40px 0 20px 0
+}
+
+.rb-ab-about-hr {
+    padding-left: 0
+}
+
+.rb-ab-about-way-img-1 {
+    height: 272px;
+    background: url("/assets/images/aboutus/about img-1.png") center no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+.rb-ab-about-way-img-2 {
+    height: 131px;
+    background: url("/assets/images/aboutus/about img-2.png") center no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+.rb-ab-about-way-img-3 {
+    height: 131px;
+    background: url("/assets/images/aboutus/about img-3.png") center no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+.rb-ab-about-way-img-4 {
+    height: 272px;
+    background: url("/assets/images/aboutus/about img-4.png") center no-repeat;
+    background-size: cover;
+    background-position: center
+}
+
+.col-md-3 > .rb-ab-about-way-img-4, .col-md-4 > .rb-ab-about-way-img-2 {
+    margin-left: 10px
+}
+
+.col-md-4 > .rb-ab-about-way-img-3 {
+    margin: 10px 0 0 10px
+}
+
+.rb-ab-about-invest {
+    margin-bottom: 50px
+}
+
+.rb-ab-team {
+    padding: 55px 0 60px 0
+}
+
+.rb-ab-as-cont, .rb-ab-philo {
+    padding: 55px 0 0 0
+}
+
+.rb-ab-image-margin > .col-md-3, .rb-ab-image-margin > .col-md-4, .rb-ab-image-margin > .col-md-5 {
+    padding: 0
+}
+
+.rb-ab-image-margin {
+    margin-top: 25px
+}
+
+.rb-ab-philo {
+    padding-left: 0;
+    line-height: 24px
+}
+
+.rb-ab-philo h4 {
+    margin: 35px 0 11px 0;
+    font-size: 20px;
+    font-family: proxima_nova_rgbold
+}
+
+.rb-ab-head-contnt {
+    margin-top: 47px;
+    line-height: 24px
+}
+
+.rb-ab-head-contnt p:last-child {
+    margin-top: 26px
+}
+
+.rb-ab-the-team {
+    padding: 0
+}
+
+.rb-ab-employ1 {
+    border: 1px solid #fff;
+    height: auto;
+    box-shadow: 0 0 20px 3px rgba(239, 239, 239, 1);
+    padding: 0 20px
+}
+
+.rb-ab-employ-show h4:first-child {
+    font-size: 20px;
+    font-family: proxima_nova_rgbold;
+    margin: 31px 0 34px 0
+}
+
+.rb-ab-employ-show .col-md-12 {
+    padding: 0
+}
+
+.rb-ab-linkin-cir, .rb-ab-twit-cir {
+    border: 2px solid #aab2bd;
+    border-radius: 20px;
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+    height: 30px;
+    padding: 6px 6px 4px 8px;
+    text-align: center;
+    width: 30px;
+    border-color: #008dd2
+}
+
+.rb-ab-twit-cir {
+    margin-left: 8px
+}
+
+.rb-ab-linkin-cir i, .rb-ab-twit-cir i {
+    color: #008dd2
+}
+
+.rb-ab-employ1 .media {
+    margin: 35px 0 0 20px
+}
+
+.rb-ab-employ1 .media-heading {
+    font-size: 18px;
+    color: #008dd2;
+    font-family: proxima_nova_rgbold
+}
+
+.rb-ab-employ1 .media-body p {
+    font-size: 14px;
+    color: #999;
+    margin: 8px 0 9px 0
+}
+
+.rb-ab-employ1-border {
+    border-top: 1px dashed #d9d9d9;
+    margin: 30px 0 25px 0
+}
+
+.rb-ab-employ1 .rb-ab-para-ceo {
+    line-height: 24px
+}
+
+.rb-ab-employ1 .rb-ab-read {
+    margin: 20px 0 25px 0;
+    font-size: 12px;
+    display: block;
+    font-family: proxima_nova_rgbold
+}
+
+.rb-ab-para-ceo1 {
+    padding-right: 10px
+}
+
+.rb-ab-para-ceo2 {
+    padding-right: 13px
+}
+
+section#partners-offers {
+    background: url(/assets/images/offers-bg.png) no-repeat #f07832;
+    background-attachment: fixed
+}
+
+section#partners-offers header {
+    text-align: center;
+    padding: 75px 10px 35px 10px;
+    color: #fff
+}
+
+section#partners-offers .offers-more {
+    padding: 75px 0;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff
+}
+
+.offers-card {
+    position: relative;
+    background: #fff;
+    width: 260px;
+    padding: 5px 20px 30px;
+    margin: 0 auto;
+    border-radius: 4px
+}
+
+.offers-card .offers-card-partner img.partner {
+    box-sizing: content-box;
+    width: 120px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 25px 0;
+    display: block
+}
+
+.offers-card-hex {
+    position: relative;
+    margin-top: 45px;
+    margin-bottom: 50px
+}
+
+.offers-card-hex .hexagon-offers-img {
+    position: relative;
+    width: 100px;
+    height: 57.74px;
+    background-color: #fff;
+    margin: 0 auto;
+    border-left: solid 3px #e5e5e5;
+    border-right: solid 3px #e5e5e5;
+    border-radius: 3px
+}
+
+.offers-card-hex .hexagon-offers-img:after, .offers-card-hex .hexagon-offers-img:before {
+    content: "";
+    position: absolute;
+    z-index: 1;
+    width: 70.71px;
+    height: 70.71px;
+    -webkit-transform: scaleY(.5774) rotate(-45deg);
+    -ms-transform: scaleY(.5774) rotate(-45deg);
+    transform: scaleY(.5774) rotate(-45deg);
+    background-color: inherit;
+    left: 11.6447px;
+    border-radius: 3px 6px
+}
+
+.offers-card-hex .hexagon-offers-img:before {
+    top: -35.3553px;
+    border-top: solid 4.2426px #e5e5e5;
+    border-right: solid 4.2426px #e5e5e5
+}
+
+.offers-card-hex .hexagon-offers-img:after {
+    bottom: -35.3553px;
+    border-bottom: solid 4.2426px #e5e5e5;
+    border-left: solid 4.2426px #e5e5e5
+}
+
+.offers-card-hex .hexagon-offers-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    z-index: 2
+}
+
+.offers-card-hex .hexagon-offers-text p {
+    font-size: 30px;
+    color: #f07932
+}
+
+.offers-card-hex .hexagon-offers-text p sup {
+    font-size: 18px
+}
+
+.offers-card-info {
+    text-align: center;
+    font-size: 14px
+}
+
+.offers-card-info h4 {
+    line-height: 25px;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #333
+}
+
+.offers-card-info p {
+    line-height: 21px;
+    color: #999
+}
+
+.filter-wrapper ul.filters {
+    position: relative;
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    margin: 0 auto;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    padding: 0 0 30px 0
+}
+
+.filter-wrapper ul.filters span {
+    color: #fff
+}
+
+.filter-wrapper ul.filters li {
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    padding: 10px
+}
+
+.filter-wrapper ul.filters li button {
+    background: 0 0;
+    border-radius: 0;
+    border-bottom: 2px solid rgba(255, 255, 255, .1);
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+    color: #fff
+}
+
+.filter-wrapper ul.filters li button:hover {
+    border-bottom: 2px solid #fff
+}
+
+.filter-wrapper ul.filters li button:focus {
+    outline: 0;
+    border-bottom: 2px solid #fff
+}
+
+.the-carousel {
+    position: relative;
+    height: 390px
+}
+
+.the-carousel button.slick-prev {
+    position: absolute;
+    width: 15px;
+    height: 30px;
+    background: url(/assets/images/prev.png) no-repeat;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 0;
+    z-index: 2;
+    text-indent: -999999px;
+    border: 0;
+    opacity: .5;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out
+}
+
+.the-carousel button.slick-next {
+    position: absolute;
+    width: 15px;
+    height: 30px;
+    background: url(/assets/images/next.png) no-repeat;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    right: 0;
+    z-index: 2;
+    text-indent: -999999px;
+    border: 0;
+    opacity: .5;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out
+}
+
+.the-carousel button.slick-next:hover, .the-carousel button.slick-prev:hover {
+    opacity: 1
+}
+
+section#user-onboarding {
+    background: #888
+}
+
+section#user-onboarding button.btn.rb-btn-submit-md {
+    position: relative;
+    background: url(/assets/images/rb-btn-md.png) no-repeat;
+    width: 190px;
+    height: 60px;
+    background-size: 190px 60px;
+    color: #0373ba;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 40px auto;
+    margin-bottom: 90px;
+    display: block
+}
+
+section#user-onboarding button.btn.rb-btn-submit-md:after {
+    position: absolute;
+    content: "";
+    width: 19px;
+    height: 14px;
+    background: url(/assets/images/btn-arrow-blue.png) no-repeat;
+    background-size: 19px 14px;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    opacity: 0;
+    -webkit-transition: all .25s;
+    transition: all .25s
+}
+
+section#user-onboarding button.btn.rb-btn-submit-md:hover:after {
+    opacity: 1;
+    -webkit-transform: translate(50px, -50%);
+    -ms-transform: translate(50px, -50%);
+    transform: translate(50px, -50%)
+}
+
+.rb-uob-tabs {
+    padding: 40px 10px;
+    padding-bottom: 20px;
+    background: url(/assets/images/rb-bg-texture.png) no-repeat #0373ba;
+    text-align: center;
+    background-attachment: fixed;
+    background-position: left -400px top 100px
+}
+
+.rb-uob-tabs h2.uob-info-text {
+    font-size: 28px;
+    line-height: 38px;
+    color: #fff;
+    margin-bottom: 30px
+}
+
+.rb-uob-tabs ul.nav.nav-tabs {
+    border: 0
+}
+
+.rb-uob-tabs ul.nav.nav-tabs li a {
+    color: rgba(255, 255, 255, .5);
+    background: 0 0;
+    border: 0
+}
+
+.rb-uob-tabs ul.nav.nav-tabs li.active a {
+    color: #fff;
+    border: 0;
+    position: relative;
+    font-weight: 700
+}
+
+.rb-uob-tabs ul.nav.nav-tabs li.active a:before {
+    position: absolute;
+    content: "";
+    height: 2px;
+    width: 100px;
+    background: #fff;
+    top: 0;
+    left: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+
+.rb-uob-form-section {
+    background: #fff
+}
+
+.rb-uob-form-section .tab-content form {
+    padding: 60px 0 30px 0
+}
+
+.rb-uob-form-section h3 {
+    font-size: 30px;
+    text-align: center;
+    padding: 50px 0
+}
+
+.rb-uob-progress {
+    margin: 10px
+}
+
+.rb-uob-progress .progress {
+    background: #005c96;
+    border-radius: 20px;
+    padding: 4px;
+    height: 20px
+}
+
+.rb-uob-progress .progress .progress-bar {
+    background-color: #9bbfd6;
+    border-radius: 20px 0 0 20px
+}
+
+.rangeslider__fill {
+    background: #0373ba
+}
+
+output.uob-range-output {
+    margin: 30px 0
+}
+
+.rb-heading-banner {
+    text-align: center;
+    background: url(/assets/images/rb-bg-texture.png) no-repeat #0373ba;
+    background-position: left -400px top;
+    padding: 65px 0;
+    color: #fff;
+    background-attachment: fixed
+}
+
+.rb-heading-banner.quote-success-banner img {
+    margin-bottom: 25px
+}
+
+.rb-heading-banner.quote-success-banner h2 {
+    font-size: 28px;
+    margin-bottom: 15px
+}
+
+.rb-heading-banner.quote-success-banner p {
+    font-size: 20px
+}
+
+.quote-tracking-id {
+    margin-top: 50px
+}
+
+.quote-tracking-id p {
+    font-size: 18px;
+    margin-bottom: 15px
+}
+
+.quote-tracking-id span {
+    display: inline-block;
+    background: #fff;
+    color: #333;
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 10px 50px;
+    border-radius: 5px;
+    border: 2px dotted #c2c2c2
+}
+
+.rb-quote-track {
+    padding: 50px 5px;
+    text-align: center
+}
+
+.rb-quote-track h2 {
+    margin-bottom: 50px
+}
+
+.rb-quote-track img {
+    margin: 0 auto
+}
+
+.rb-quote-form-success, .rb-uob-form-section {
+    background: #fff;
+    padding: 0 20px
+}
+
+.rb-quote-form form .form-group, .rb-quote-form-success form .form-group, .rb-uob-form-section form .form-group {
+    margin: 10px auto;
+    margin-bottom: 20px
+}
+
+.rb-quote-form form .form-group .form-control, .rb-quote-form-success form .form-group .form-control, .rb-uob-form-section form .form-group .form-control {
+    box-shadow: none
+}
+
+.rb-quote-form form .form-group label, .rb-quote-form-success form .form-group label, .rb-uob-form-section form .form-group label {
+    font-size: 16px;
+    margin-bottom: 18px;
+    font-weight: 400;
+    color: #333
+}
+
+.rb-quote-form form .form-group label sup, .rb-quote-form-success form .form-group label sup, .rb-uob-form-section form .form-group label sup {
+    color: #d5316d;
+    font-size: 18px;
+    top: 0
+}
+
+.rb-quote-form form .form-group input, .rb-quote-form form .form-group select, .rb-quote-form-success form .form-group input, .rb-quote-form-success form .form-group select, .rb-uob-form-section form .form-group input, .rb-uob-form-section form .form-group select {
+    font-weight: 700;
+    height: 50px;
+    -webkit-appearance: none
+}
+
+.rb-quote-form form .form-group select, .rb-quote-form-success form .form-group select, .rb-uob-form-section form .form-group select {
+    background: url(/assets/images/down-arrow.svg) #fbfbfb no-repeat;
+    background-position: right 10px center;
+    background-size: 20px 12px
+}
+
+.rb-quote-form form .form-group input[type=date], .rb-quote-form-success form .form-group input[type=date], .rb-uob-form-section form .form-group input[type=date] {
+    background: url(/assets/images/form-select-cal.png) #fbfbfb no-repeat;
+    background-size: 20px 20px;
+    background-position: right 10px center
+}
+
+.rb-quote-form-success {
+    background: #fff;
+    padding: 0 20px
+}
+
+.rb-apply-now form .form-group, .rb-quote-form form .form-group, .rb-quote-form-success form .form-group, .send-query-modal form .form-group {
+    margin: 10px auto;
+    margin-bottom: 20px
+}
+
+.rb-apply-now form .form-group .form-control, .rb-quote-form form .form-group .form-control, .rb-quote-form-success form .form-group .form-control, .send-query-modal form .form-group .form-control {
+    box-shadow: none
+}
+
+.rb-apply-now form .form-group label, .rb-quote-form form .form-group label, .rb-quote-form-success form .form-group label, .send-query-modal form .form-group label {
+    font-size: 16px;
+    margin-bottom: 18px;
+    font-weight: 400;
+    color: #333
+}
+
+.rb-apply-now form .form-group label sup, .rb-quote-form form .form-group label sup, .rb-quote-form-success form .form-group label sup, .send-query-modal form .form-group label sup {
+    color: #d5316d;
+    font-size: 16px;
+    top: 0
+}
+
+.rb-apply-now form .form-group input, .rb-apply-now form .form-group select, .rb-quote-form form .form-group input, .rb-quote-form form .form-group select, .rb-quote-form-success form .form-group input, .rb-quote-form-success form .form-group select, .send-query-modal form .form-group input, .send-query-modal form .form-group select {
+    font-weight: 700;
+    height: 50px;
+    -webkit-appearance: none
+}
+
+.rb-apply-now form .form-group select, .rb-quote-form form .form-group select, .rb-quote-form-success form .form-group select, .send-query-modal form .form-group select {
+    background: url(/assets/images/down-arrow.svg) #fbfbfb no-repeat;
+    background-position: right 10px center;
+    background-size: 20px 12px
+}
+
+.rb-quote-form form .form-group input[type=date], .rb-quote-form-success form .form-group input[type=date] {
+    background: url(/assets/images/form-select-cal.png) #fbfbfb no-repeat;
+    background-size: 20px 20px;
+    background-position: right 10px center
+}
+
+.rb-quote-form button.btn.rb-btn-submit {
+    position: relative;
+    width: 190px;
+    height: 60px;
+    background: url(/assets/images/rb-btn-md.png);
+    background-size: 190px 60px;
+    display: block;
+    margin: 20px auto;
+    font-weight: 700;
+    text-transform: uppercase
+}
+
+.rb-quote-form button.btn.rb-btn-submit:after {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background: red;
+    background-size: 15px;
+    top: 0;
+    left: 0
+}
+
+.dead-link {
+    pointer-events: none;
+    cursor: default
+}
+
+button.btn.rb-btn-submit:active, button.btn.rb-btn-submit:focus {
+    box-shadow: none;
+    outline: 0
+}
+
+.fileUpload {
+    position: relative;
+    overflow: hidden
+}
+
+.fileUpload input.upload {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    height: 45px
+}
+
+.form-group .fileUpload input[type=text]:disabled {
+    background: #fff
+}
+
+.fileUpload {
+    border-right: 0 none;
+    margin-top: -45px;
+    margin-right: 10px;
+    overflow: hidden;
+    padding: 10px 35px 10px 35px;
+    position: relative;
+    float: right;
+    background: #0373ba;
+    color: #fff;
+    border: none;
+    border-radius: 0;
+    font-weight: 700
+}
+
+.fileUpload:hover {
+    color: #fff
+}
+
+input.form-control#rb-form-upload {
+    background: #fafafa
+}
+
+.rb-table-section-heading {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 20px 0;
+    -webkit-flex-wrap: no-wrap;
+    -ms-flex-wrap: no-wrap;
+    flex-wrap: no-wrap
+}
+
+.cta-call-back h4 {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+    font-weight: 700
+}
+
+.cta-call-back form {
+    position: relative
+}
+
+.cta-call-back form .form-group {
+    position: relative;
+    background: #f7f7f7
+}
+
+.cta-call-back form .form-group span {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    width: 40px;
+    line-height: 35px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    background: #f7f7f7;
+    color: #666
+}
+
+.cta-call-back form .form-group button {
+    color: #fff;
+    background: #0373ba;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    border-radius: 0 4px 4px 0
+}
+
+.cta-call-back form .form-group input {
+    background: #f7f7f7;
+    padding-left: 45px;
+    border-color: #ccc;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: none
+}
+
+.dropdown-menu li {
+    margin: 0;
+    display: block
+}
+
+.dropdown-menu {
+    margin: 13px 0;
+    border: none;
+    border-radius: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .175)
+}
+
+.dropdown-menu li a {
+    padding: 10px 0
+}
+
+li.dropdown.open > a img {
+    -webkit-transform: rotateZ(-180deg)
+}
+
+.dropdown-menu li a, li.dropdown img {
+    -webkit-transition: .5s ease-in-out;
+    transition: .5s ease-in-out
+}
+
+.pop-padd #btnu-shape {
+    margin: 0
+}
+
+button.rb-btn-submit-md.btn-popup {
+    margin: 30px 0
+}
+
+button.btn.rb-btn-submit-lg.btn-popup {
+    top: 30px;
+    left: -10px
+}
+
+button.btn.rb-btn-submit-md.frgot-psw-submit {
+    margin: 0;
+    margin-bottom: 20px
+}
+
+.rb-product-landing .app-step .dash {
+    z-index: 0
+}
+
+.rupee-placeholder {
+    position: relative
+}
+
+.rupee-placeholder button.btn.rb-btn-rupee {
+    position: absolute;
+    right: 3px;
+    top: 3px;
+    background: #fecb54;
+    color: #000
+}
+
+.my-req-field .rupee-placeholder span.rb-rs {
+    font-size: 18px
+}
+
+#how-it-works {
+    padding-top: 60px
+}
+
+#how-it-works .rb-lh-26 {
+    margin-bottom: 40px
+}
+
+#how-it-works ul {
+    padding: 0;
+    list-style: none
+}
+
+#how-it-works ul li {
+    position: relative;
+    padding: 15px 0;
+    padding-left: 30px;
+    color: #666;
+    border-bottom: 1px dashed #d6d6d6
+}
+
+#how-it-works ul li:before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 16px;
+    top: 15px;
+    left: 0;
+    background: url(/assets/images/tick.png) no-repeat;
+    background-size: 13px 10px;
+    background-position: center
+}
+
+#how-it-works .list-01 ul li:last-child, #how-it-works .list-02 ul li:last-child {
+    border-bottom: 0
+}
+
+#how-it-works .list-02 {
+    padding-left: 70px
+}
+
+.rb-pl-chg-bg li.active a {
+    border-bottom: 3px solid #333;
+    color: #333;
+    font-weight: 700
+}
+
+.rb-pl-banner {
+    background: url(/assets/images/banner-pll.png);
+    background-size: cover;
+    height: 400px
+}
+
+#offers h2 {
+    padding: 0 0 30px 20px
+}
+
+.rb-pl-chg-bg #nav-scroll {
+    background-color: #fafafa
+}
+
+.rb-pl-chg-bg .ns-sticky-nav-pading50 {
+    background-color: #fafafa !important
+}
+
+.rb-padding3015 {
+    padding: 30px 0 15px 0
+}
+
+.rb-pl-tb-40 {
+    height: 40px
+}
+
+.rb-pl-banner form button.btn.rb-btn-submit-md {
+    margin: 20px 0
+}
+
+.my-req-field {
+    position: relative;
+    width: 300px
+}
+
+.my-req-field .rupee-placeholder input {
+    height: 40px;
+    padding-left: 45px;
+    background: #f7f7f7
+}
+
+.my-req-field .rupee-placeholder span {
+    position: absolute;
+    display: block;
+    width: 40px;
+    height: 38px;
+    color: #000;
+    top: 1px;
+    left: 0;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 4px 0 0 4px
+}
+
+.rb-faq-nav .nav-list {
+    padding-left: 100px
+}
+
+#rb-faq-main-nav .ns-wrappe-sticky-section .ns-sticky-nav-pading50 {
+    padding: 0 0 0 14px;
+    background: #fff
+}
+
+#rb-faq-main-nav .nav-list li.active a {
+    border-bottom: 3px solid #333;
+    color: #333;
+    font-weight: 700
+}
+
+#rb-faq-main-nav .rb-faq-nav .nav-scroll-header {
+    background-color: #fafafa
+}
+
+#rb-faq-main-nav #nav-scroll {
+    padding-top: 0
+}
+
+#faq button.rb-btn-submit-md.btn-popup {
+    margin: 0 20px
+}
+
+#faq .col-md-4, #faq .col-md-8 {
+    padding: 30px 0
+}
+
+#faq .col-md-8 .accordion-toggle {
+    padding: 10px 0
+}
+
+#faq .fa-minus-circle, #faq .fa-plus-circle {
+    margin-right: 20px
+}
+
+#faq .accordion-inner {
+    margin-left: 38px
+}
+
+.inner-faq-col4 {
+    border-left: 1px dotted #ececec;
+    padding: 0 30px
+}
+
+.inner-faq-col4 h2 {
+    padding-bottom: 30px;
+    padding-left: 10px;
+    font-size: 24px
+}
+
+.inner-faq-col4 input {
+    padding: 20px 15px;
+    background-color: #f7f7f7
+}
+
+.inner-faq-col4 .extra-mar {
+    margin: 5px 0
+}
+
+.inner-faq-col4 textarea {
+    margin-top: 15px;
+    background-color: #f7f7f7
+}
+
+#application-steps .app-apply {
+    padding: 8px 20px 0 20px
+}
+
+#rb-privacy-policy {
+    background: #fff
+}
+
+#rb-privacy-policy header h1 {
+    font-size: 30px;
+    padding: 30px 0;
+    border-bottom: 1px dotted #d9d9d9
+}
+
+#rb-privacy-policy p {
+    color: #666;
+    margin-bottom: 25px
+}
+
+#rb-privacy-policy .privacy-policy-intro {
+    padding: 50px 0;
+    line-height: 24px
+}
+
+#rb-privacy-policy .privacy-policy-intro p {
+    margin-bottom: 25px
+}
+
+#rb-privacy-policy .privacy-policy-intro a {
+    text-transform: none
+}
+
+#rb-privacy-policy .privacy-policy-main .term {
+    line-height: 26px;
+    margin-bottom: 60px
+}
+
+#rb-privacy-policy .privacy-policy-main .term a {
+    text-transform: none
+}
+
+#rb-privacy-policy .privacy-policy-main .term h3 {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #333;
+    font-weight: 700
+}
+
+#rb-privacy-policy .privacy-policy-main .term ul {
+    padding: 0;
+    list-style: none
+}
+
+#rb-privacy-policy .privacy-policy-main .term ul li {
+    position: relative;
+    padding-left: 30px;
+    margin-bottom: 20px;
+    color: #666
+}
+
+#rb-privacy-policy .privacy-policy-main .term ul li:before {
+    position: absolute;
+    content: "";
+    width: 20px;
+    height: 16px;
+    top: 5px;
+    left: 0;
+    background-size: 13px 10px;
+    background-position: center
+}
+
+#rb-privacy-policy .privacy-policy-main .term li.term-sub-list ul {
+    list-style-type: lower-roman
+}
+
+#rb-privacy-policy .privacy-policy-main .term li.term-sub-list ul li {
+    padding: 0;
+    margin-bottom: 10px
+}
+
+#rb-privacy-policy .privacy-policy-main .term li.term-sub-list ul li:before {
+    display: none
+}
+
+#rb-privacy-policy .privacy-policy-main .term li.term-sub-list:before {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 0;
+    top: 0;
+    left: 0;
+    background: 0 0
+}
+
+.rb-apply-now h2 {
+    padding: 60px 0
+}
+
+section.rb-admin-panel {
+    background-color: #f8f7f7;
+    padding: 30px 0
+}
+
+section.rb-admin-panel .tab-content h2 {
+    margin-bottom: 30px
+}
+
+.rb-admin-panel-nav {
+    background: #fff;
+    border-radius: 4px
+}
+
+.rb-admin-panel-nav ul.nav.nav-stacked li {
+    margin: 0;
+    border-bottom: 1px solid #f0f0f0
+}
+
+.rb-admin-panel-nav ul.nav.nav-stacked li:last-child {
+    border: 0
+}
+
+.rb-admin-panel-nav ul.nav.nav-stacked li.active {
+    position: relative;
+    background: #f2f7fc;
+    color: #0373ba;
+    position: relative;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out
+}
+
+.rb-admin-panel-nav ul.nav.nav-stacked li.active:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background: #0373ba;
+    height: 100%;
+    width: 4px
+}
+
+.rb-admin-panel-nav ul.nav.nav-stacked li a {
+    padding: 20px;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out;
+    color: #333;
+    font-size: 16px;
+    font-weight: 700
+}
+
+.rb-admin-panel-nav ul.nav.nav-stacked li a:focus, .rb-admin-panel-nav ul.nav.nav-stacked li a:hover {
+    background: #f2f7fc;
+    color: #0373ba;
+    position: relative;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out
+}
+
+.rb-admin-panel-nav ul.nav.nav-stacked li a:focus:before, .rb-admin-panel-nav ul.nav.nav-stacked li a:hover:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    background: #0373ba;
+    height: 100%;
+    width: 4px
+}
+
+.rb-admin-panel-nav .rb-admin-info {
+    padding: 30px 20px
+}
+
+.rb-admin-panel-nav .rb-admin-info img {
+    width: 80px
+}
+
+.rb-admin-panel-nav .rb-admin-info h3 {
+    padding: 20px 0;
+    font-size: 22px
+}
+
+.rb-admin-panel-nav .rb-admin-info h5 {
+    font-size: 14px;
+    color: #999;
+    margin-bottom: 10px
+}
+
+.rb-admin-panel-nav .rb-admin-info span {
+    color: #666;
+    font-size: 14px
+}
+
+.rb-admin-panel-content {
+    background: #fff;
+    padding: 30px;
+    border-radius: 4px
+}
+
+.rb-admin-panel-content .track-app-content {
+    padding: 15px
+}
+
+.rb-admin-panel-content .track-app-content ul.details-sec-01 {
+    margin-bottom: 25px
+}
+
+.rb-admin-panel-content .track-app-content ul.details-sec-01 h5 {
+    font-size: 14px;
+    color: #999
+}
+
+.rb-admin-panel-content .track-app-content ul.details-sec-01 span {
+    font-size: 22px;
+    color: #333
+}
+
+.rb-admin-panel-content .track-app-content ul.details-sec-01 li {
+    float: left;
+    margin-right: 50px;
+    padding: 10px 0
+}
+
+.rb-admin-panel-content .track-app-content ul.details-sec-01 li:last-child {
+    float: right;
+    margin-right: 0
+}
+
+.rb-admin-panel-content .track-app-content ul.details-sec-01 li:last-child h5 {
+    text-transform: uppercase;
+    margin-bottom: 15px
+}
+
+.rb-admin-panel-content .track-app-content ul.details-sec-01 li:last-child span.processing {
+    padding: 10px;
+    background: #0373ba;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 4px;
+    text-transform: uppercase
+}
+
+.rb-admin-panel-content .track-app-content ul.details-sec-02 {
+    margin-bottom: 25px
+}
+
+.rb-admin-panel-content .track-app-content ul.details-sec-02 h5 {
+    font-size: 14px;
+    color: #999
+}
+
+.rb-admin-panel-content .track-app-content ul.details-sec-02 span {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333
+}
+
+.rb-admin-panel-content .track-app-content ul.details-sec-02 li {
+    float: left;
+    margin-right: 40px;
+    padding: 10px 0
+}
+
+.track-app-heading {
+    margin-top: 30px
+}
+
+.track-app-heading h4 {
+    font-size: 14px;
+    text-transform: uppercase;
+    font-weight: 700
+}
+
+.track-app-info {
+    background: #f3f5f7;
+    padding: 15px 0;
+    margin-top: 10px
+}
+
+.track-app-info p {
+    padding: 15px;
+    border-radius: 4px;
+    background: #e8c294;
+    color: #924609
+}
+
+.rb-admin-panel-content .wish-list-content {
+    padding: 25px 0;
+    border-top: 1px solid #f0f0f0
+}
+
+.rb-admin-panel-content .wish-list-content:last-child {
+    border-bottom: 1px solid #f0f0f0
+}
+
+.rb-admin-panel-content .wish-list-content ul.details-sec-01 {
+    margin-bottom: 25px
+}
+
+.rb-admin-panel-content .wish-list-content ul.details-sec-01 h5 {
+    font-size: 14px;
+    color: #999
+}
+
+.rb-admin-panel-content .wish-list-content ul.details-sec-01 span {
+    font-size: 22px;
+    color: #333
+}
+
+.rb-admin-panel-content .wish-list-content ul.details-sec-01 li {
+    float: left;
+    margin-right: 30px;
+    padding: 10px 0
+}
+
+.rb-admin-panel-content .wish-list-content ul.details-sec-02 {
+    margin-bottom: 25px
+}
+
+.rb-admin-panel-content .wish-list-content ul.details-sec-02 h5 {
+    font-size: 14px;
+    color: #999
+}
+
+.rb-admin-panel-content .wish-list-content ul.details-sec-02 span {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333
+}
+
+.rb-admin-panel-content .wish-list-content ul.details-sec-02 li {
+    float: left;
+    margin-right: 40px;
+    padding: 10px 0
+}
+
+.rb-admin-panel-content .wish-list-content .wish-list-cta {
+    text-align: right;
+    text-transform: uppercase
+}
+
+.rb-admin-panel-content .wish-list-content .wish-list-cta button.btn.rb-btn-approve {
+    margin-bottom: 15px;
+    background: 0 0;
+    border-color: #0373ba;
+    color: #0373ba;
+    text-transform: uppercase
+}
+
+.rb-admin-panel-content .wish-list-content .wish-list-cta a {
+    display: block;
+    font-size: 14px;
+    font-weight: 700
+}
+
+.rb-admin-panel-content .wish-list-content .wish-list-cta a.remove {
+    color: #c33;
+    margin-top: 40px
+}
+
+.rb-admin-panel-content .recommended-content {
+    padding: 25px 0;
+    border-top: 1px solid #f0f0f0
+}
+
+.rb-admin-panel-content .recommended-content:last-child {
+    border-bottom: 1px solid #f0f0f0
+}
+
+.rb-admin-panel-content .recommended-content ul.details-sec-01 {
+    margin-bottom: 25px
+}
+
+.rb-admin-panel-content .recommended-content ul.details-sec-01 h5 {
+    font-size: 14px;
+    color: #999
+}
+
+.rb-admin-panel-content .recommended-content ul.details-sec-01 span {
+    font-size: 22px;
+    color: #333
+}
+
+.rb-admin-panel-content .recommended-content ul.details-sec-01 li {
+    float: left;
+    margin-right: 30px;
+    padding: 10px 0
+}
+
+.rb-admin-panel-content .recommended-content ul.details-sec-02 {
+    margin-bottom: 25px
+}
+
+.rb-admin-panel-content .recommended-content ul.details-sec-02 h5 {
+    font-size: 14px;
+    color: #999
+}
+
+.rb-admin-panel-content .recommended-content ul.details-sec-02 span {
+    font-size: 16px;
+    font-weight: 700;
+    color: #333
+}
+
+.rb-admin-panel-content .recommended-content ul.details-sec-02 li {
+    float: left;
+    margin-right: 40px;
+    padding: 10px 0
+}
+
+.rb-admin-panel-content .recommended-content .recommended-cta {
+    text-align: right;
+    text-transform: uppercase
+}
+
+.rb-admin-panel-content .recommended-content .recommended-cta button.btn.rb-btn-approve {
+    margin-bottom: 15px;
+    background: 0 0;
+    border-color: #0373ba;
+    color: #0373ba;
+    text-transform: uppercase
+}
+
+.rb-admin-panel-content .recommended-content .recommended-cta a {
+    display: block;
+    font-size: 14px;
+    font-weight: 700
+}
+
+.rb-admin-panel-content .recommended-content .recommended-cta a.remove {
+    color: #c33;
+    margin-top: 40px
+}
+
+.edit-profile-content form .form-group label {
+    margin-bottom: 15px;
+    font-size: 14px
+}
+
+.edit-profile-content form .form-group label sup {
+    font-size: 18px;
+    top: 0;
+    color: #d5316d
+}
+
+.edit-profile-content form .form-group .form-control {
+    height: 45px;
+    background-color: #fbfbfb;
+    margin-bottom: 25px
+}
+
+.edit-profile-content form .form-group input[type=date].form-control {
+    background: url(/assets/images/form-select-cal.png) no-repeat center right 20px
+}
+
+.notification-content .notification-month {
+    margin-bottom: 40px
+}
+
+.notification-content .notification-month h5 {
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding-left: 15px
+}
+
+.notification-content .notification-month .media {
+    padding: 15px;
+    background: #f3f5f7
+}
+
+.notification-content .notification-month .media span {
+    display: inline-block;
+    color: #999;
+    font-size: 14px;
+    margin-top: 20px
+}
+
+.send-query-modal .modal-content {
+    border-radius: 4px;
+    padding-bottom: 40px
+}
+
+.send-query-modal-header {
+    background: #ecebeb;
+    border-radius: 4px 4px 0 0
+}
+
+.send-query-modal-header form input[disabled] {
+    background: url(/assets/images/input-lock.png) no-repeat #fff;
+    background-position: right 10px center
+}
+
+.send-query-modal-header .modal-title {
+    margin-bottom: 25px;
+    font-size: 30px;
+    color: #333
+}
+
+.send-query-modal-body {
+    background: #fff
+}
+
+.send-query-modal form.form .form-group label {
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #999;
+    font-weight: 700
+}
+
+.send-query-modal form.form .form-group input {
+    color: #333
+}
+
+.send-query-modal-body form input, .send-query-modal-body form textarea {
+    background: #f7f7f7
+}
+
+.send-query-modal-body form button.btn.rb-btn-submit-md {
+    margin: 0;
+    margin-top: 20px
+}
+
+.rb-pl-offers-carousel {
+    margin: 50px auto;
+    height: 315px
+}
+
+.offers-carousel-item img {
+    display: block;
+    margin: 0 auto
+}
+
+.rb-pl-offers-carousel button.slick-next, .rb-pl-offers-carousel button.slick-prev {
+    position: absolute;
+    width: 15px;
+    height: 30px;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 2;
+    text-indent: -9999px;
+    white-space: nowrap;
+    overflow: hidden;
+    border: 0;
+    background: url(/assets/images/prev-next-b.png) no-repeat;
+    opacity: .5;
+    -webkit-transition: all .25s ease-in-out;
+    transition: all .25s ease-in-out
+}
+
+.rb-pl-offers-carousel button.slick-next:hover, .rb-pl-offers-carousel button.slick-prev:hover {
+    opacity: .8
+}
+
+.rb-pl-offers-carousel button.slick-prev {
+    left: 0
+}
+
+.rb-pl-offers-carousel button.slick-next {
+    right: 0;
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg)
+}
+
+.cd-primary-nav > li:first-child.active {
+    box-shadow: inset 0 -4px 0 #fdb813
+}
+
+#credit-cards.active {
+    color: #fdb813
+}
+
+.slider-text {
+    position: relative
+}
+
+.slider-text:before {
+    position: absolute;
+    content: "";
+    width: 11px;
+    height: 150px;
+    top: -5;
+    left: -38px;
+    background: url(/assets/images/quote-img.png)
+}
+
+.rb-mr-mny-pnl.rb-money-pannel .media {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.rb-mr-social {
+    background: red;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex
+}
+
+.rb-mr-social button.btn.rb-btn-ms-social.fb, .rb-mr-social button.btn.rb-btn-ms-social.tw {
+    -webkit-flex-basis: 0;
+    -ms-flex-preferred-size: 0;
+    flex-basis: 0;
+    border-radius: 0;
+    color: #fff;
+    height: 50px;
+    font-size: 24px
+}
+
+.rb-mr-social button.btn.rb-btn-ms-social.tw {
+    background: #3cf;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.rb-mr-social button.btn.rb-btn-ms-social.fb {
+    background: #3c5a98;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1
+}
+
+.rb-blue2 {
+    height: 255px
+}
+
+.rb-bank-compare-list.affix {
+    position: fixed;
+    top: 90px;
+    width: 100%;
+    z-index: 1
+}
+
+section.rb-blue-banner h2 span.edit-link a {
+    display: inline-block;
+    color: #fff;
+    padding-left: 20px;
+    font-size: 14px
+}
+
+section.rb-blue-banner h2 span.edit-link a:hover {
+    text-decoration: underline
+}
+
+table.rb-search-product-cc .media .media-body {
+    vertical-align: middle
+}
+
+ul.search-product-cc li {
+    text-align: center;
+    width: 250px
+}
+
+ul.search-product-cc li:first-child {
+    width: auto
+}
+
+table.table.hidden-xs.rb-search-product-cc tbody tr th {
+    color: #999
+}
+
+.rb-follow-us img {
+    float: right;
+    margin: 10px 0
+}
+
+.rb-about-box {
+    margin-bottom: 20px
+}
+
+table.rb-search-product-cc .media {
+    margin-left: 20px
+}
+
+table.rb-search-product-cc a.rb-details {
+    margin-left: 20px
+}
+
+table.rb-search-product-cc form.rb-sp-table-checkbox {
+    position: relative;
+    top: 45px;
+    right: 10px
+}
+
+.rb-table-section table.rb-search-product-cc > tbody > tr > td:nth-child(4) {
+    font-size: 16px;
+    font-weight: 400;
+    vertical-align: middle
+}
+
+img.rb-vertical-mdle {
+    cursor: pointer
+}
+
+form.form.rb-quick-edit-form {
+    color: #fff;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap
+}
+
+form.form.rb-quick-edit-form a {
+    height: 30px;
+    color: #fff
+}
+
+form.form.rb-quick-edit-form a:hover {
+    text-decoration: underline
+}
+
+form.form.rb-quick-edit-form button {
+    height: 30px;
+    background: 0 0
+}
+
+form.form.rb-quick-edit-form button:active, form.form.rb-quick-edit-form button:focus, form.form.rb-quick-edit-form button:hover {
+    color: #fff;
+    text-decoration: underline;
+    box-shadow: none;
+    outline: 0
+}
+
+form.form.rb-quick-edit-form .form-group {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: baseline;
+    -webkit-align-items: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline
+}
+
+.edit-form-static {
+    height: 65px
+}
+
+.rb-quick-edit-form .edit-form-fields {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.rb-quick-edit-form .edit-form-static {
+    display: block
+}
+
+.rb-quick-edit-form .edit-form-btns {
+    display: block;
+    position: relative;
+    right: 10px
+}
+
+.edit-form-static .static-label {
+    font-size: 30px;
+    display: inline-block;
+    margin-right: 10px;
+    padding-top: 10px
+}
+
+.edit-form-static .static-label span {
+    font-size: 20px
+}
+
+.static-label span a.btn {
+    background: 0 0;
+    color: #fff;
+    padding: 5px 10px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-right: 10px;
+    border: 2px solid #fff
+}
+
+form.form.rb-quick-edit-form .form-group label {
+    font-size: 20px;
+    padding: 6px 0
+}
+
+form.form.rb-quick-edit-form .form-group input {
+    background: 0 0;
+    color: #fff;
+    border: 1px solid transparent;
+    box-shadow: none;
+    font-size: 30px;
+    height: 50px;
+    width: 200px;
+    border-radius: 0;
+    border-bottom: 2px solid rgba(255, 255, 255, .2)
+}
+
+form.form.rb-quick-edit-form .form-group select {
+    background: 0 0;
+    color: #fff;
+    border: 1px solid transparent;
+    box-shadow: none;
+    font-size: 30px;
+    height: 50px;
+    border-radius: 0;
+    border-bottom: 2px solid rgba(255, 255, 255, .2)
+}
+
+form.form.rb-quick-edit-form .form-group select option {
+    color: rgba(0, 0, 0, .5)
+}
+
+form.form.rb-quick-edit-form .form-group input:active, form.form.rb-quick-edit-form .form-group input:focus, form.form.rb-quick-edit-form .form-group input:hover, form.form.rb-quick-edit-form .form-group select:active, form.form.rb-quick-edit-form .form-group select:focus, form.form.rb-quick-edit-form .form-group select:hover {
+    border-bottom: 2px solid #fff;
+    cursor: pointer
+}
+
+.rb-quick-edit-form-sp {
+    padding: 30px 5px
+}
+
+.rb-quick-edit-form-sp .edit-form-fields {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    font-size: 30px;
+    color: rgba(255, 255, 255, .8)
+}
+
+.rb-quick-edit-form-sp .edit-form-btns {
+    display: block
+}
+
+.rb-quick-edit-form-sp .form-group input, .rb-quick-edit-form-sp .form-group select {
+    background: 0 0;
+    border: none;
+    border-radius: 0;
+    font-size: 28px;
+    height: 50px;
+    box-shadow: none;
+    color: #fff;
+    border-bottom: 2px solid rgba(255, 255, 255, .2)
+}
+
+.rb-quick-edit-form-sp .form-group select option {
+    color: rgba(0, 0, 0, .5)
+}
+
+.rb-quick-edit-form-sp .form-group {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: baseline;
+    -webkit-align-items: baseline;
+    -ms-flex-align: baseline;
+    align-items: baseline
+}
+
+.rb-quick-edit-form-sp .form-group input:active, .rb-quick-edit-form-sp .form-group input:focus, .rb-quick-edit-form-sp .form-group input:hover, .rb-quick-edit-form-sp .form-group select:active, .rb-quick-edit-form-sp .form-group select:focus, .rb-quick-edit-form-sp .form-group select:hover {
+    border-bottom: 2px solid #fff;
+    cursor: pointer
+}
+
+.rb-quick-edit-form-sp .edit-form-btns {
+    padding: 20px 0
+}
+
+.rb-quick-edit-form-sp a {
+    height: 30px;
+    color: #fff
+}
+
+.rb-quick-edit-form-sp a:hover {
+    color: #fff;
+    text-decoration: underline
+}
+
+.rb-quick-edit-form-sp button {
+    background: 0 0;
+    color: #fff;
+    height: 30px
+}
+
+.rb-quick-edit-form-sp button:active, .rb-quick-edit-form-sp button:focus, .rb-quick-edit-form-sp button:hover {
+    color: #fff;
+    text-decoration: underline;
+    box-shadow: none;
+    outline: 0
+}
+
+.rb-quick-edit-form-sp .edit-form-static-sp {
+    font-size: 30px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    color: rgba(255, 255, 255, .8);
+    line-height: 45px
+}
+
+.rb-quick-edit-form-sp .edit-form-static-sp em {
+    color: rgba(255, 255, 255, 1)
+}
+
+.rb-error-msg .btn.rb-btn-submit-lg {
+    line-height: 40px
+}
+
+.view-all-text {
+    text-align: center;
+    padding: 50px 10px
+}
+
+.view-all-text h4 a {
+    color: #333
+}
