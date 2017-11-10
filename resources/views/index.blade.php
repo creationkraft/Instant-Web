@@ -1,2 +1,6 @@
 @include('header')
+@include('partners')
+@include('team-page')
+@include('careers-page')
+@include('contact-page')
 @include('footer')

@@ -11,5 +11,5 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', 'HomeController@Index');
+Route::get('/index.html', 'HomeController@Index');
 
